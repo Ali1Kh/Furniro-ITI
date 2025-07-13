@@ -1,11 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single Product</title>
+    <link rel="shortcut icon" href="../assets/icons/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/product.css" />
 </head>
+
 <body>
-    
+    <nav>
+        <!-- Navigation -->
+        <div class="navBar">
+            <div class="text">
+                <p>Furniro</p>
+            </div>
+
+            <div class="menu-icon" onclick="toggleSidebar()">☰</div>
+
+            <div class="navBarLinks">
+                <ul>
+                    <li><a href="/pages/home.html">Home</a></li>
+                    <li><a href="/pages/shop.html">Shop</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/pages/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="navBarIcons">
+                <a href="/pages/home.html"><i class="fa-solid fa-user"></i></a>
+                <a href="/pages/shop.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="/"><i class="fa-solid fa-heart"></i></a>
+                <a href="/pages/contact.html"><i class="fa-solid fa-cart-plus"></i></a>
+            </div>
+        </div>
+
+        <!-- Sidebar for mobile -->
+        <div class="sidebar" id="sidebar">
+            <a href="" onclick="toggleSidebar()">✖</a>
+            <a href="">Home</a>
+            <a href="/pages/shop.html">Shop</a>
+            <a href="/">About</a>
+            <a href="/pages/contact.html">Contact</a>
+        </div>
+    </nav>
+    <main>
+        <div class="navigatePages">
+            <a href="/pages/shop.html">Home</a>
+            <span><i class="fa-solid fa-chevron-right"></i></span>
+            <a href="/pages/shop.html">Shop</a>
+            <span><i class="fa-solid fa-chevron-right"></i></span>
+            <span class="dash"></span>
+            <p>Asgaard sofa</p>
+        </div>
+        <div class="productContainer">
+            <div class="productInfo">
+                <div class="imagesContainer">
+                    <div class="sideImages">
+                        <div class="sideImageItem">
+                            <img src="/assets/img/product/1.png" alt="" srcset="">
+                        </div>
+                        <div class="sideImageItem">
+                            <img src="/assets/img/product/2.png" alt="" srcset="">
+                        </div>
+                        <div class="sideImageItem">
+                            <img src="/assets/img/product/3.png" alt="" srcset="">
+                        </div>
+                        <div class="sideImageItem">
+                            <img src="/assets/img/product/4.png" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="headImage">
+                        <img src="/assets/img/product/Asgaard sofa 3.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="content">
+                    <h2>Asgaard sofa</h2>
+                    <p>Rs. 250,000.00</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>
+                        Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact,
+                        stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs
+                        for a sound.
+                    </p>
+                    <div class="sizes">
+                        <span>L</span>
+                        <span>XL</span>
+                        <span>XS</span>
+                    </div>
+                    <div class="colors">
+                        <div class="purple"></div>
+                        <div class="black"></div>
+                        <div class="brown"></div>
+                    </div>
+                    <div class="buttons">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/product.js"></script>
 </body>
+
 </html>

@@ -1,33 +1,4 @@
 
-/* Sidebar for mobile */
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  background-color: #8d8d8d;
-  overflow-x: hidden;
-  transition: 0.3s;
-  padding-top: 60px;
-  z-index: 999;
-}
-.sidebar a {
-  padding: 12px 20px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  display: block;
-}
-.sidebar a:hover {
-  background-color: #444;
-}
-
-.menu-icon {
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  padding: 15px;
-}
-
 /* ========== Footer ========== */
 .footerBox {
   height: 400px;
@@ -426,27 +397,6 @@
   opacity: 1;
   visibility: visible;
 }
-
-/* 
-.ShowMore {
-
-  margin-top: 50px;
-  width: 245px;
-  height: 48px;
-
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  border: 2px solid #dbc697;
-  background-color: #fff;
-  color: #b88e2f;
-  cursor: pointer;
-}
-
-.ShowMore:hover {
-  background-color: #b88e2f;
-  color: white;
-  transition: ease-in-out 0.5s;
-} */
 
 .hidden {
   display: none;

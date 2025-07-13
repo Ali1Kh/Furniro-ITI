@@ -1,3 +1,7 @@
+:root {
+  --mainColor: #feeed8;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -46,4 +50,51 @@ body {
   font-weight: bold;
   font-size: 22px;
   color: #b88e2f;
+}
+
+/* Sidebar for mobile */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  background-color: #8d8d8d;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  z-index: 999;
+}
+.sidebar a {
+  padding: 12px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+.sidebar a:hover {
+  background-color: #444;
+}
+
+.menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .navBarLinks {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .navBarIcons {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .navBarIcons {
+    display: none;
+  }
 }

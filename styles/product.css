@@ -1,0 +1,100 @@
+.navigatePages {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--mainColor);
+  padding: 20px 50px;
+}
+
+.navigatePages a {
+  text-decoration: none;
+  color: #dacece;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.navigatePages i,
+.navigatePages p {
+  font-size: 13px;
+}
+
+.navigatePages .dash {
+  position: relative;
+}
+
+.navigatePages .dash::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 35px;
+  background-color: #cfcccc;
+}
+
+.productContainer {
+  width: 80%;
+  margin: auto;
+}
+
+.productInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin: 50px 0;
+}
+
+.productInfo .imagesContainer {
+  display: flex;
+  gap: 20px;
+  height: 100%;
+}
+.productInfo .sideImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.productInfo .headImage,
+.productInfo .sideImageItem {
+  background-color: var(--mainColor);
+  border-radius: 15px;
+}
+
+.productInfo .content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.productInfo .content .sizes span {
+  background-color: var(--mainColor);
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.productInfo .content .colors {
+  display: flex;
+  gap: 15px;
+}
+.productInfo .content .colors div {
+  border-radius: 50vh;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.productInfo .content .colors div.purple {
+  background-color: #816dfa;
+}
+.productInfo .content .colors div.black {
+  background-color: #000000;
+}
+.productInfo .content .colors div.brown {
+  background-color: #b88e2f;
+}

@@ -545,12 +545,6 @@
   background-color: #444;
 }
 
-.menu-icon {
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  padding: 15px;
-}
 
 @media (min-width: 600px) and (max-width: 991px) {
   .infoterbox {
@@ -572,14 +566,7 @@
   }
 }
 
-@media (max-width: 768px) {
-  .navBarLinks {
-    display: none;
-  }
-  .menu-icon {
-    display: block;
-  }
-}
+
 
 @media (max-width: 767px) {
   .boxContainer {
@@ -611,14 +598,6 @@
   .section3 h2 {
     font-size: 23px;
     margin-bottom: 2px;
-  }
-
-  .navBar {
-    /* display: none; */
-  }
-
-  .navBarIcons {
-    display: none;
   }
 
   .addCartBtn {
