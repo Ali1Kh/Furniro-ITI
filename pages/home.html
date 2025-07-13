@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Furniro</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/home.css" />
+</head>
+
+<body>
+
+  <div class="mainScreen">
+
+    <!-- Navigation -->
+    <div class="navBar">
+      <div class="text">
+        <p>Furniro</p>
+      </div>
+
+      <div class="menu-icon" onclick="toggleSidebar()">☰</div>
+
+      <div class="navBarLinks">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="navBarIcons">
+        <a href="#"><i class="fa-solid fa-user"></i></a>
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="#"><i class="fa-solid fa-heart"></i></a>
+        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+      </div>
+    </div>
+
+    <!-- Sidebar for mobile -->
+    <div class="sidebar" id="sidebar">
+      <a href="#" onclick="toggleSidebar()">✖</a>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+
+
+    <!-- Section 1 -->
+    <div class="section1">
+      <div class="backgroundFull">
+        <div class="box">
+          <div class="inbox">
+            <p class="smalP">New Arrival</p>
+            <p class="bigP">Discover Our New Collection</p>
+            <p class="smalP">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis.
+            </p>
+            <div class="buttonBuy">
+              <button type="button">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="section2">
+      <div class="text2">
+        <p class="textmain">Browse The Range</p>
+        <p class="textL">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="imges">
+        <div class="imgItem">
+          <img src="../assets/img/section2_1.png" alt="" />
+          <p>Dining</p>
+        </div>
+        <div class="imgItem">
+          <img src="../assets/img/section2_2.png" alt="" />
+          <p>Living</p>
+        </div>
+        <div class="imgItem">
+          <img src="../assets/img/section2_3.png" alt="" />
+          <p>Bedroom</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="section3">
+      <h2>Our Products</h2>
+      <div class="boxContainer">
+
+        <div class="boxin">
+          <img src="../assets/img/section3_1.png" alt="Product 1" />
+          <p class="fuct">Syltherine</p>
+          <p class="productName">Stylish cafe chair</p>
+          <p class="price">Rp 2.500.000 <del style="font-size: 16px; color: #a7a7a7; padding-left: 10px;">Rp
+              3.500.000</del></p>
+
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+        </div>
+
+        <div class="boxin">
+          <img src="../assets/img/section3_8.png" alt="Product 1" />
+          <p class="fuct">Syltherine</p>
+          <p class="productName">Stylish cafe chair</p>
+          <p class="price">Rp 2.500.000 <del style=" font-size: 16px;
+    color: #a7a7a7; padding-left: 10px;"> <span>Rp 3.500.000</span></del></p>
+
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+        </div>
+
+        <div class="boxin">
+          <img src="../assets/img/section3_3.png" alt="Product 1" />
+          <p class="fuct">Lolito</p>
+          <p class="productName">Luxury big sofa</p>
+          <p class="price">Rp 7.000.000 <del style=" font-size: 16px;
+    color: #a7a7a7; padding-left: 10px;"> <span>Rp 14.000.000</span></del></p>
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+
+
+        </div>
+
+        <div class="boxin">
+          <img src="../assets/img/section3_4.png" alt="Product 1" />
+          <p class="fuct">Respira</p>
+          <p class="productName">Outdoor bar table and stool</p>
+          <p class="price">Rp 500.000 </p>
+
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+
+
+        </div>
+
+        <div class="boxin">
+          <img src="../assets/img/section3_5.png" alt="Product 1" />
+          <p class="fuct">Grifo</p>
+          <p class="productName">Night lamp</p>
+          <p class="price">Rp 1.500.000 </p>
+
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+
+        </div>
+
+
+        <div class="boxin">
+          <img src="../assets/img/section3_6.png" alt="Product 1" />
+          <p class="fuct">Muggo</p>
+          <p class="productName">Small mug</p>
+          <p class="price">Rp 150.000</p>
+
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+
+
+        </div>
+
+
+        <div class="boxin">
+          <img src="../assets/img/section3_7.png" alt="Product 1" />
+          <p class="fuct">Pingky</p>
+          <p class="productName">Cute bed set</p>
+          <p class="price">Rp 7.000.000 <del style=" font-size: 16px;
+    color: #a7a7a7; padding-left: 10px;"> <span>Rp 14.000.000</span></del></p>
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+
+
+        </div>
+
+
+        <div class="boxin">
+          <img src="../assets/img/section3_8.png" alt="Product 1" />
+          <p class="fuct">Potty</p>
+          <p class="productName">Minimalist flower pot</p>
+          <p class="price">Rp 500.000</p>
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+
+        </div>
+
+
+        <div class="boxin hidden">
+          <img src="../assets/img/section3_8.png" alt="Product 1" />
+          <p class="fuct">Potty</p>
+          <p class="productName">Minimalist flower pot</p>
+          <p class="price">Rp 500.000</p>
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+
+
+        </div>
+
+        <div class="boxin hidden">
+          <img src="../assets/img/section3_8.png" alt="Product 1" />
+          <p class="fuct">Potty</p>
+          <p class="productName">Minimalist flower pot</p>
+          <p class="price">Rp 500.000</p>
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+
+
+        </div>
+
+
+        <div class="boxin hidden">
+          <img src="../assets/img/section3_8.png" alt="Product 1" />
+          <p class="fuct">Potty</p>
+          <p class="productName">Minimalist flower pot</p>
+          <p class="price">Rp 500.000</p>
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+
+
+        </div>
+
+
+        <div class="boxin hidden">
+          <img src="../assets/img/section3_8.png" alt="Product 1" />
+          <p class="fuct">Potty</p>
+          <p class="productName">Minimalist flower pot</p>
+          <p class="price">Rp 500.000</p>
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+
+        </div>
+
+
+        <div class="boxin hidden">
+          <img src="../assets/img/section3_8.png" alt="Product 1" />
+          <p class="fuct">Potty</p>
+          <p class="productName">Minimalist flower pot</p>
+          <p class="price">Rp 500.000</p>
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+
+        </div>
+
+        <div class="boxin hidden">
+          <img src="../assets/img/section3_8.png" alt="Product 1" />
+          <p class="fuct">Potty</p>
+          <p class="productName">Minimalist flower pot</p>
+          <p class="price">Rp 500.000</p>
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+
+        </div>
+
+
+        <div class="boxin hidden">
+          <img src="../assets/img/section3_8.png" alt="Product 1" />
+          <p class="fuct">Potty</p>
+          <p class="productName">Minimalist flower pot</p>
+          <p class="price">Rp 500.000</p>
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+
+        </div>
+
+
+        <div class="boxin hidden">
+          <img src="../assets/img/section3_8.png" alt="Product 1" />
+          <p class="fuct">Potty</p>
+          <p class="productName">Minimalist flower pot</p>
+          <p class="price">Rp 500.000</p>
+          <button class="addCartBtn">Add to Cart</button>
+          <div class="linksUnderBtn">
+            <a href="#">Details</a>
+            <a href="#">Share</a>
+            <a href="#">Wishlist</a>
+          </div>
+        </div>
+      </div>
+
+      <button class="ShowMore" type="button">Show More</button>
+    </div>
+
+
+    <div class="Section4">
+      <div class="box4">
+        <div class="boxin4">
+          <div class="leftSaide">
+            <div class="pragraph">
+              <p class="main">50+ Beautiful rooms
+                inspiration</p>
+              <p class="scP">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+              <div class="buttonExplore">
+                <button type="button">Explore More</button>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="rightSaide">
+            <div class="slider-container">
+              <div class="slider-track" id="sliderTrack">
+                <img src="../assets/img/slaider1.png" alt="Room 1" />
+                <img src="../assets/img/slaider2.png" alt="Room 2" />
+                <img src="../assets/img/slaider1.png" alt="Room 1" />
+                <img src="../assets/img/slaider2.png" alt="Room 3" />
+                <img src="../assets/img/slaider1.png" alt="Room 1" />
+              </div>
+              <button class="arrow left" onclick="moveSlide(-1)">&#10094;</button>
+              <button class="arrow right" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section4">
+      <div class="pragraph4">
+        <p style="font-size: 30px; font-weight: bold; ">#FuniroFurniture</p>
+      </div>
+
+      <div class="box4">
+        <div class="inbox4">
+          <img style="width: 100%;" src="../assets/img/section4.png" alt="">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="the_end with-line">
+      <div class="footer">
+        <div class="footerBox">
+          <div class="infoterbox">
+            <div class="infoterboxL">
+              <div class="prgraphF">
+                <p class="mainFooterBar">Funiro.</p>
+                <p class="scoundFooterBar">400 University Drive Suite 200 Coral Gables,
+                  FL 33134 USA</p>
+              </div>
+            </div>
+            <div class="infoterboxLM">
+              <div class="prgraphFF">
+                <p>Links</p>
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+              </div>
+            </div>
+            <div class="infoterboxRM" <div class="prgraphFF">
+              <p>Help</p>
+              <a href="#">Payment Options</a>
+              <a href="#">Returns</a>
+              <a href="#">Privacy Policies</a>
+            </div>
+
+            <div class="infoterboxR">
+              <div class="prgraphFF">
+                <p>Newsletter</p>
+                <div class="SUBSCRIBE">
+                  <input type="text" placeholder="Enter Your Email Address">
+                  <button type="button">SUBSCRIBE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <script src="../scripts/home.js"></script>
+
+</body>
+
+</html>
