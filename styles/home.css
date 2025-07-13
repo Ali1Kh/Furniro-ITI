@@ -5,11 +5,11 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .navBar img {
-display: inline;
+  display: inline;
 }
 
 .navBar {
@@ -29,7 +29,6 @@ display: inline;
   list-style: none;
   display: flex;
   gap: 60px;
-
 }
 
 .navBarLinks a {
@@ -115,7 +114,6 @@ display: inline;
   margin-top: 80px;
 }
 
-
 .imgItem img {
   width: 350px;
   height: 400px;
@@ -128,7 +126,6 @@ display: inline;
   font-weight: bold;
 }
 
-
 .section3 {
   max-width: 1300px;
   margin: 15px auto 50px auto;
@@ -139,7 +136,7 @@ display: inline;
 .section3 h2 {
   font-size: 32px;
   margin-bottom: 40px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .boxContainer {
@@ -148,7 +145,6 @@ display: inline;
   gap: 40px;
   padding: 10px;
 }
-
 
 .boxin {
   /* width: calc((100% - 3 * 40px) / 4); */
@@ -186,7 +182,7 @@ display: inline;
 .fuct {
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #000;
 }
 
@@ -257,7 +253,7 @@ display: inline;
   color: #b88e2f;
   font-weight: 600;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   padding: 5px 12px;
   border: 1.5px solid #b88e2f;
@@ -275,14 +271,12 @@ display: inline;
   visibility: visible;
 }
 
-
 .ShowMore {
-
   margin-top: 50px;
   width: 245px;
   height: 48px;
 
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   border: 2px solid #dbc697;
   background-color: #fff;
@@ -302,11 +296,10 @@ display: inline;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid #b88e2f;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 2rem;
-  animation:
-    typing 4s steps(22) infinite alternate,
+  animation: typing 4s steps(22) infinite alternate,
     blink 0.75s step-end infinite;
 }
 
@@ -326,7 +319,6 @@ display: inline;
   }
 }
 
-
 .hidden {
   display: none;
 }
@@ -335,8 +327,6 @@ display: inline;
   .boxContainer {
     grid-template-columns: repeat(4, 1fr);
   }
-
-  
 }
 
 @media (max-width: 1199px) and (min-width: 768px) {
@@ -344,21 +334,18 @@ display: inline;
     grid-template-columns: repeat(2, 1fr);
   }
 
-
-   .imges img {
+  .imges img {
     width: 95%;
     height: 95%;
-
   }
 
   .box {
-        width: 75%;
+    width: 75%;
     height: 75% !important;
 
     position: relative;
     left: 100px;
     bottom: 100px;
-
   }
 }
 
@@ -370,49 +357,41 @@ display: inline;
 
 .boxin4 {
   display: grid;
-  grid-template-columns: 1.5fr 2fr ;
+  grid-template-columns: 1.5fr 2fr;
   gap: 50px;
   padding: 20px;
   height: 100%;
-
 }
-
-
 
 .leftSaide {
   /* background-color: #444; */
-    padding: 20px;
-    height: 100%;
+  padding: 20px;
+  height: 100%;
 }
 
 .rightSaide {
   /* background-color: #b88e2f; */
-    padding: 20px;
-    height: 100%;
+  padding: 20px;
+  height: 100%;
 
-    position: relative;
-    top: 70px;
+  position: relative;
+  top: 70px;
 }
 
 .main {
   font-size: 40px;
   font-weight: bold;
-
 }
-
 
 .pragraph {
   position: relative;
   top: 150px;
-
 }
 
 .photos {
   display: grid;
   grid-template-rows: 10%;
 }
-
-
 
 .explore-btn {
   background-color: #b88e2f;
@@ -456,7 +435,7 @@ display: inline;
   transform: translateY(-50%);
   background-color: #ffffff;
   color: #b88e2f;
-  border-radius:100%;
+  border-radius: 100%;
   border: none;
   font-size: 24px;
   padding: 10px;
@@ -472,21 +451,16 @@ display: inline;
   right: 10px;
 }
 
-
-
 .pragraph4 {
   display: flex;
-  align-content : center;
+  align-content: center;
   justify-content: center;
-    position: relative;
-    top: 10px;
-    color: #b88e2f;
+  position: relative;
+  top: 10px;
+  color: #b88e2f;
 }
 
-
-
-  .buttonExplore button {
-
+.buttonExplore button {
   width: 176px;
   height: 48px;
   background-color: #b88e2f;
@@ -495,21 +469,19 @@ display: inline;
   font-weight: bold;
   border: none;
   cursor: pointer;
-   position: relative; 
-   top: 15px;
-  }
-
+  position: relative;
+  top: 15px;
+}
 
 .section4 p {
   margin-top: 70px;
 }
 
-
 .footerBox {
   height: 400px;
   width: 100%;
 }
-.with-line::before ,
+.with-line::before,
 .with-line::after {
   content: "";
   display: block;
@@ -519,12 +491,9 @@ display: inline;
   width: 100%;
 }
 
-.with-line::after{
+.with-line::after {
   width: 82%;
 }
-
-
-
 
 .infoterbox {
   margin-left: 100px;
@@ -533,21 +502,20 @@ display: inline;
   grid-template-columns: 1fr 1fr 1fr 1.5fr;
   gap: 20px;
   padding: 30px;
-    color: white;
+  color: white;
 
-    height: 100%;
+  height: 100%;
 }
 
 .mainFooterBar {
   font-weight: bold;
   font-size: 24px;
   color: #000;
-
 }
-.scoundFooterBar{
+.scoundFooterBar {
   font-size: 16px;
   font-weight: 300;
-  color: #9F9F9F;
+  color: #9f9f9f;
   position: relative;
   top: 40px;
 }
@@ -557,29 +525,26 @@ display: inline;
   top: 54px;
 }
 
-
-.infoterboxLM  a , 
-.infoterboxRM  a{
+.infoterboxLM a,
+.infoterboxRM a {
   display: block;
   margin-top: 55px;
   text-decoration: none;
   color: #000;
-    width: 70%;
+  width: 70%;
 }
 
-.infoterboxLM p , 
-.infoterboxRM p ,
+.infoterboxLM p,
+.infoterboxRM p,
 .prgraphFF p {
   font-size: 16px;
   font-weight: 300;
-  color: #9F9F9F;
+  color: #9f9f9f;
 }
 
 .SUBSCRIBE {
-
   position: relative;
   top: 53px;
-
 }
 
 .SUBSCRIBE button {
@@ -587,7 +552,7 @@ display: inline;
   font-weight: bold;
   width: 85px;
   height: 21px;
-border: none;
+  border: none;
   border-bottom: 1px solid black;
   margin-left: 15px;
   background-color: white;
@@ -595,23 +560,18 @@ border: none;
   cursor: pointer;
 }
 
-
-
-
 .SUBSCRIBE input {
   font-size: 14px;
   width: 200px;
   height: 21px;
-  color: #9F9F9F;
+  color: #9f9f9f;
   border: none;
   border-bottom: 1px solid black;
 }
 
 .SUBSCRIBE input:focus {
   outline: none;
-
 }
-
 
 /* Sidebar style */
 .sidebar {
@@ -642,33 +602,25 @@ border: none;
   padding: 15px;
 }
 
-
-
 @media (min-width: 600px) and (max-width: 991px) {
-
-
-
   .infoterbox {
-  margin-left: 0px;
-  margin-right: 0px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1.5fr;
-  gap: 20px;
-  padding: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr;
+    gap: 20px;
+    padding: 30px;
     color: white;
 
     height: 100%;
+  }
+
+  .SUBSCRIBE button {
+    margin-left: 0;
+
+    margin-top: 10px;
+  }
 }
-
-
-.SUBSCRIBE button {
-  margin-left: 0;
-
-  margin-top: 10px;
-}
-
-}
-
 
 @media (max-width: 768px) {
   .navBarLinks {
@@ -677,22 +629,13 @@ border: none;
   .menu-icon {
     display: block;
   }
-
-
-
-
-
-  
 }
-
 
 @media (max-width: 767px) {
   .boxContainer {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
-
-  
 
   .boxin {
     height: auto;
@@ -711,12 +654,9 @@ border: none;
     height: 50%;
   }
 
-
   .boxin {
     height: 90%;
-
   }
-
 
   .section3 h2 {
     font-size: 23px;
@@ -727,26 +667,23 @@ border: none;
     /* display: none; */
   }
 
-  .navBarIcons  {
+  .navBarIcons {
     display: none;
   }
 
-
-
   .addCartBtn {
-
     width: 100px;
     height: 50px;
     font-size: 10px !important;
-    padding: 0 !important; 
+    padding: 0 !important;
   }
 
   .linksUnderBtn a {
     width: 40px;
     height: 20px;
     font-size: 10px !important;
-    padding: 0 !important; 
-    }
+    padding: 0 !important;
+  }
 
   .textmain {
     font-size: 25px;
@@ -756,7 +693,7 @@ border: none;
     font-size: 12px;
   }
 
-   .imges {
+  .imges {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-top: 25px;
@@ -766,29 +703,24 @@ border: none;
     width: 100%;
     height: 100%;
     margin-top: 0;
-padding-top: 0;
+    padding-top: 0;
   }
-  
-.ShowMore {
-  margin-top: 0;
-}
-  
+
+  .ShowMore {
+    margin-top: 0;
+  }
 
   .box {
-        width: 90%;
-    height: 300px ;
+    width: 90%;
+    height: 300px;
 
     position: relative;
     left: 15px;
-
-
   }
 
   .buttonBuy button {
-
     width: 100%;
     height: 50px !important;
-
   }
 
   .bigP {
@@ -797,19 +729,15 @@ padding-top: 0;
 
   .smalP {
     font-size: 12px !important;
-
   }
-
 
   .main {
     font-size: 20px !important;
   }
-  
-  .scP {
-        font-size: 12px !important;
 
+  .scP {
+    font-size: 12px !important;
   }
-  
 
   .pragraph {
     position: relative;
@@ -818,91 +746,76 @@ padding-top: 0;
   }
 
   .buttonExplore button {
-  width: 100%;
-  height: 48px;
+    width: 100%;
+    height: 48px;
   }
 
+  .boxin4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
 
-.boxin4 {
-  display: grid;
-  grid-template-columns: 1fr ;
-  gap: 0;
+  .slider-track img {
+    height: 350px;
+  }
 
-}
+  .leftSaide {
+    padding-top: 0;
+  }
 
-.slider-track img {
-  height: 350px;
-}
+  .section4 p {
+    margin-top: 20px;
+    font-size: 25px !important;
+  }
 
-.leftSaide {
-  padding-top:0 ;
-}
+  .infoterbox {
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 
+  .prgraphF {
+    position: relative;
+    top: 10px;
+  }
 
+  .scoundFooterBar {
+    font-size: 13px;
+    font-weight: 200;
+    position: relative;
+    top: 1px;
+  }
 
-.section4 p {
-  margin-top: 20px;
-  font-size: 25px !important;
-}
-
-
-
-.infoterbox {
-  margin-left: 10px;
-  display: grid;
-  grid-template-columns: 1fr  ;
-  gap: 20px;
-
-
-}
-
-.prgraphF {
-  position: relative;
-  top: 10px;
-}
-
-
-.scoundFooterBar{
-  font-size: 13px;
-  font-weight: 200;
-  position: relative;
-  top: 1px;
-}
-
-.infoterboxLM  a , 
-.infoterboxRM  a{
-  margin-top: 5px;
+  .infoterboxLM a,
+  .infoterboxRM a {
+    margin-top: 5px;
     width: 65%;
+  }
 
-}
+  .SUBSCRIBE button {
+    margin-left: 0;
+    background-color: white;
+    margin-top: 15px;
+    cursor: pointer;
+  }
 
-.SUBSCRIBE button {
-  margin-left: 0;
-  background-color: white;
-  margin-top: 15px;
-  cursor: pointer;
-}
+  .SUBSCRIBE input {
+    font-size: 14px;
+    width: 200px;
+    height: 21px;
+    color: #9f9f9f;
+    border: none;
+    border-bottom: 1px solid black;
+  }
 
+  .SUBSCRIBE {
+    position: relative;
+    top: 10px;
+  }
 
-
-
-.SUBSCRIBE input {
-  font-size: 14px;
-  width: 200px;
-  height: 21px;
-  color: #9F9F9F;
-  border: none;
-  border-bottom: 1px solid black;
-}
-
-.SUBSCRIBE {
-
-  position: relative;
-  top: 10px;
-
-}
-
-.footerBox {
-  height: 550px;
-}
+  .footerBox {
+    height: 550px;
+  }
 }
