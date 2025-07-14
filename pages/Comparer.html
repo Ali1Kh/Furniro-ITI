@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Comparison</title>
+    <link rel="shortcut icon" href="../assets/icons/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/Comparer.css" />
+</head>
+<body>
+    <nav>
+      <div class="navBar">
+        <div class="text">
+          <p>Furniro</p>
+        </div>
+        <div class="menu-icon" onclick="toggleSidebar()">☰</div>
+        <div class="navBarLinks">
+          <ul>
+            <li><a href="/pages/home.html">Home</a></li>
+            <li><a href="/pages/shop.html">Shop</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navBarIcons">
+          <a href="/pages/home.html"><i class="fa-solid fa-user"></i></a>
+          <a href="/pages/shop.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href="/"><i class="fa-solid fa-heart"></i></a>
+          <a href="/pages/contact.html"><i class="fa-solid fa-cart-plus"></i></a>
+        </div>
+      </div>
+      <div class="sidebar" id="sidebar">
+        <a href="" onclick="toggleSidebar()">✖</a>
+        <a href="/pages/home.html">Home</a>
+        <a href="/pages/shop.html">Shop</a>
+        <a href="/">About</a>
+        <a href="/pages/contact.html">Contact</a>
+      </div>
+    </nav>
+    <div class="mainScreen">
+      <div class="comparison-header">
+        <h1>Product Comparison</h1>
+      </div>
+      <div class="comparison-table-container">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>
+                <img src="../assets/img/product/1.png" alt="Product 1" class="product-img"><br>
+                Asgaard Sofa
+              </th>
+              <th>
+                <img src="../assets/img/product/2.png" alt="Product 2" class="product-img"><br>
+                Outdoor Sofa Set
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Price</td>
+              <td>$100</td>
+              <td>$120</td>
+            </tr>
+            <tr>
+              <td>Material</td>
+              <td>Wood, Fabric</td>
+              <td>Metal, Fabric</td>
+            </tr>
+            <tr>
+              <td>Color</td>
+              <td>Gray</td>
+              <td>Black</td>
+            </tr>
+            <tr>
+              <td>Dimensions</td>
+              <td>200x90x80 cm</td>
+              <td>210x95x85 cm</td>
+            </tr>
+            <tr>
+              <td>Warranty</td>
+              <td>1 Year</td>
+              <td>2 Years</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="add-product-btn-container">
+        <button class="add-product-btn">Add a Product</button>
+      </div>
+    </div>
+    <div class="the_end with-line">
+      <div class="footer">
+        <div class="footerBox">
+          <div class="infoterbox">
+            <div class="infoterboxL">
+              <div class="prgraphF">
+                <p class="mainFooterBar">Funiro.</p>
+                <p class="scoundFooterBar">400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+              </div>
+            </div>
+            <div class="infoterboxLM">
+              <div class="prgraphFF">
+                <p>Links</p>
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About</a>
+                <a href="#">Comparer</a>
+                <a href="#">Contact</a>
+              </div>
+            </div>
+            <div class="infoterboxRM">
+              <div class="prgraphFF">
+                <p>Help</p>
+                <a href="#">Payment Options</a>
+                <a href="#">Returns</a>
+                <a href="#">Privacy Policies</a>
+              </div>
+            </div>
+            <div class="infoterboxR">
+              <div class="prgraphFF">
+                <p>Newsletter</p>
+                <div class="SUBSCRIBE">
+                  <input type="text" placeholder="Enter Your Email Address">
+                  <button type="button">SUBSCRIBE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/Comparer.js"></script>
+</body>
+</html>
