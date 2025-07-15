@@ -202,12 +202,6 @@ form select {
   background-color: #9c9f6a;
 }
 
-#quality {
-  display: flex;
-  background-color: rgba(250, 243, 234, 1);
-  width: 100%;
-}
-
 .footer {
   background-color: #fff;
   padding: 40px 60px 20px;

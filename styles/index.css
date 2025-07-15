@@ -81,6 +81,15 @@ body {
   padding: 15px;
 }
 
+/* Quality */
+
+#quality {
+  display: flex;
+  background-color: rgba(250, 243, 234, 1);
+  width: 100%;
+}
+
+
 @media (max-width: 768px) {
   .navBarLinks {
     display: none;
