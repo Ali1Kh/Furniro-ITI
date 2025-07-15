@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Comparison</title>
+    <link rel="shortcut icon" href="../assets/icons/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/Comparer.css" />
+</head>
+<body>
+    <nav>
+      <div class="navBar">
+        <div class="text">
+          <p>Furniro</p>
+        </div>
+        <div class="menu-icon" onclick="toggleSidebar()">☰</div>
+        <div class="navBarLinks">
+          <ul>
+            <li><a href="/pages/home.html">Home</a></li>
+            <li><a href="/pages/shop.html">Shop</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navBarIcons">
+          <a href="/pages/home.html"><i class="fa-solid fa-user"></i></a>
+          <a href="/pages/shop.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href="/"><i class="fa-solid fa-heart"></i></a>
+          <a href="/pages/contact.html"><i class="fa-solid fa-cart-plus"></i></a>
+        </div>
+      </div>
+      <div class="sidebar" id="sidebar">
+        <a href="" onclick="toggleSidebar()">✖</a>
+        <a href="/pages/home.html">Home</a>
+        <a href="/pages/shop.html">Shop</a>
+        <a href="/">About</a>
+        <a href="/pages/contact.html">Contact</a>
+      </div>
+    </nav>
+    
+    <div class="mainScreen">
+      <div class="comparison-header">
+        <img src="../assets/img/Rectangle 1.png" alt="">
+        <div class="header-content">
+          <h1>Product Comparison</h1>
+          <div class="breadcrumb">
+            <a href="/pages/home.html">Home</a> > 
+            <span>Comparison</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="comparison-container">
+        <div class="left-section">
+          <h2>Go to Product page for more Products</h2>
+          <a href="/pages/shop.html" class="view-more-link">View More</a>
+        </div>
+        
+        <div class="products-section">
+          <div class="product-card">
+            <img src="../assets/img/product/Asgaard sofa 3.png" alt="Asgaard Sofa" class="product-img">
+            <h3>Asgaard Sofa</h3>
+            <div class="price">Rs. 250,000.00</div>
+            <div class="rating">
+              <span class="stars">★★★★☆</span>
+              <span class="rating-text">4.7</span>
+              <span class="reviews">(204 Review)</span>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <img src="../assets/img/product/Cloud sofa three seater + ottoman_1 1.png" alt="Outdoor Sofa Set" class="product-img">
+            <h3>Outdoor Sofa Set</h3>
+            <div class="price">Rs. 224,000.00</div>
+            <div class="rating">
+              <span class="stars">★★★★☆</span>
+              <span class="rating-text">4.2</span>
+              <span class="reviews">(145 Review)</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="right-section">
+          <h2>Add A Product</h2>
+          <button class="choose-product-btn">
+            Choose a Product
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </div>
+      </div>
+      
+      <div class="comparison-table-container">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Products</th>
+              <th>
+                <img src="../assets/img/product/Asgaard sofa 3.png" alt="Asgaard Sofa" class="product-img"><br>
+                <h3>Asgaard Sofa</h3>
+                <div class="price">Rs. 250,000.00</div>
+                <div class="rating">
+                  <span class="stars">★★★★☆</span>
+                  <span class="rating-text">4.7</span>
+                  <span class="reviews">(204 Review)</span>
+                </div>
+              </th>
+              <th>
+                <img src="../assets/img/product/Cloud sofa three seater + ottoman_1 1.png" alt="Outdoor Sofa Set" class="product-img"><br>
+                <h3>Outdoor Sofa Set</h3>
+                <div class="price">Rs. 224,000.00</div>
+                <div class="rating">
+                  <span class="stars">★★★★☆</span>
+                  <span class="rating-text">4.2</span>
+                  <span class="reviews">(145 Review)</span>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="section-header">
+              <td colspan="3">General</td>
+            </tr>
+            <tr>
+              <td>Sales Package</td>
+              <td>1 sectional sofa</td>
+              <td>1 Three Seater, 2 Single Seater</td>
+            </tr>
+            <tr>
+              <td>Model Number</td>
+              <td>TFCBLIGRBL6SRHS</td>
+              <td>DTUBLIGRBL568</td>
+            </tr>
+            <tr>
+              <td>Secondary Material</td>
+              <td>Solid Wood</td>
+              <td>Solid Wood</td>
+            </tr>
+            <tr>
+              <td>Configuration</td>
+              <td>L-shaped</td>
+              <td>L-shaped</td>
+            </tr>
+            <tr>
+              <td>Upholstery Material</td>
+              <td>Fabric + Cotton</td>
+              <td>Fabric + Cotton</td>
+            </tr>
+            <tr>
+              <td>Upholstery Color</td>
+              <td>Bright Grey & Lion</td>
+              <td>Bright Grey & Lion</td>
+            </tr>
+            
+            <tr class="section-header">
+              <td colspan="3">Product</td>
+            </tr>
+            <tr>
+              <td>Filling Material</td>
+              <td>Foam</td>
+              <td>Matte</td>
+            </tr>
+            <tr>
+              <td>Finish Type</td>
+              <td>Bright Grey & Lion</td>
+              <td>Bright Grey & Lion</td>
+            </tr>
+            <tr>
+              <td>Adjustable Headrest</td>
+              <td>No</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Maximum Load Capacity</td>
+              <td>280 KG</td>
+              <td>300 KG</td>
+            </tr>
+            <tr>
+              <td>Origin of Manufacture</td>
+              <td>India</td>
+              <td>India</td>
+            </tr>
+            
+            <tr class="section-header">
+              <td colspan="3">Dimensions</td>
+            </tr>
+            <tr>
+              <td>Width</td>
+              <td>265.32 cm</td>
+              <td>265.32 cm</td>
+            </tr>
+            <tr>
+              <td>Height</td>
+              <td>76 cm</td>
+              <td>76 cm</td>
+            </tr>
+            <tr>
+              <td>Depth</td>
+              <td>167.76 cm</td>
+              <td>167.76 cm</td>
+            </tr>
+            <tr>
+              <td>Weight</td>
+              <td>45 KG</td>
+              <td>65 KG</td>
+            </tr>
+            <tr>
+              <td>Seat Height</td>
+              <td>41.52 cm</td>
+              <td>41.52 cm</td>
+            </tr>
+            <tr>
+              <td>Leg Height</td>
+              <td>5.46 cm</td>
+              <td>5.46 cm</td>
+            </tr>
+            
+            <tr class="section-header">
+              <td colspan="3">Warranty</td>
+            </tr>
+            <tr>
+              <td>Warranty Summary</td>
+              <td>1 Year Manufacturing Warranty</td>
+              <td>1.2 Year Manufacturing Warranty</td>
+            </tr>
+            <tr>
+              <td>Warranty Service Type</td>
+              <td>For Warranty Claims or Any Product Related Issues Please Email at operations@trevifurniture.com</td>
+              <td>For Warranty Claims or Any Product Related Issues Please Email at support@xyz.com</td>
+            </tr>
+            <tr>
+              <td>Covered in Warranty</td>
+              <td>Warranty Against Manufacturing Defect</td>
+              <td>Warranty of the product is limited to manufacturing defects only.</td>
+            </tr>
+            <tr>
+              <td>Not Covered in Warranty</td>
+              <td>The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear & Tear In The Natural Course Of Product Usage.</td>
+              <td>The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear & Tear In The Natural Course Of Product Usage.</td>
+            </tr>
+            <tr>
+              <td>Domestic Warranty</td>
+              <td>1 Year</td>
+              <td>3 Months</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <div class="action-buttons">
+        <button class="add-to-cart-btn">Add To Cart</button>
+        <button class="add-to-cart-btn">Add To Cart</button>
+      </div>
+      
+      <div class="features-section">
+        <div class="feature">
+          <i class="fa-solid fa-star"></i>
+          <h4>High Quality</h4>
+          <p>crafted from top materials</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-shield-alt"></i>
+          <h4>Warranty Protection</h4>
+          <p>Over 2 years</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-truck"></i>
+          <h4>Free Shipping</h4>
+          <p>Order over 150 $</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-headset"></i>
+          <h4>24 / 7 Support</h4>
+          <p>Dedicated support</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="the_end with-line">
+      <div class="footer">
+        <div class="footerBox">
+          <div class="infoterbox">
+            <div class="infoterboxL">
+              <div class="prgraphF">
+                <p class="mainFooterBar">Funiro.</p>
+                <p class="scoundFooterBar">400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+              </div>
+            </div>
+            <div class="infoterboxLM">
+              <div class="prgraphFF">
+                <p>Links</p>
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+              </div>
+            </div>
+            <div class="infoterboxRM">
+              <div class="prgraphFF">
+                <p>Help</p>
+                <a href="#">Payment Options</a>
+                <a href="#">Returns</a>
+                <a href="#">Privacy Policies</a>
+              </div>
+            </div>
+            <div class="infoterboxR">
+              <div class="prgraphFF">
+                <p>Newsletter</p>
+                <div class="SUBSCRIBE">
+                  <input type="text" placeholder="Enter Your Email Address">
+                  <button type="button">SUBSCRIBE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/Comparer.js"></script>
+</body>
+</html>
