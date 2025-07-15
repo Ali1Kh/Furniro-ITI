@@ -196,11 +196,10 @@ form select {
   transition: 0.3s ease;
   margin-left: 100px;
   margin-top: 10px;
-  box-shadow: 1px 1px 1px black;
 }
 
 .btn:hover {
-  background-color: #babd8e;
+  background-color: #b0b383;
 }
 
 .footer {
