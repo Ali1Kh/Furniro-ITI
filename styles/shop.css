@@ -1,8 +1,7 @@
 /* ========== Footer ========== */
 .footerBox {
-  height: 4000px;
+  height: 400px;
   width: 100%;
-  
 }
 .with-line::before,
 .with-line::after {
@@ -87,7 +86,6 @@
 }
 
 /* ========== Media Queries ========== */
-
 @media (max-width: 768px) {
   .navBarLinks {
     display: none;
@@ -125,71 +123,8 @@
   .footerBox {
     height: 550px;
   }
-.inSection4 img {
-  width: 40px;
-  height: auto;
-}
-.pra {
-  display: inline;
-}
-
-.mainPS4 {
-  font-size: 10px !important;
-}
-
-.smallPS4 {
-    font-size: 10px !important;
-
-}
-
-.section4 {
-  width: 100% !important;
-  background-color: #faf3ea !important;
-  padding: 60px 20px !important;
-}
-
-.inSection4 {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  
-  gap: 40px !important;
-  width: 100% !important;
-}
-
-/* .featureBox {
-  display: flex !important;
-  align-items: center !important;
-  width: 100% !important;
-} */
-
-.featureBox {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
-  text-align: center !important;
-  width: 100% !important;
-}
 
 
-.featureBox img {
-  width: 50px !important;
-  height: auto !important;
-  margin-bottom: 10px !important;
-}
-
-.mainPS4 {
-  font-size: 20px !important;
-  margin-left: 10px !important;
-}
-
-.smallPS4 {
-  font-size: 15px !important;
-    display: block !important;
-  position: relative !important;
-  left: 20px !important;
-}
 }
 
 @media (min-width: 600px) and (max-width: 991px) {
@@ -566,5 +501,3 @@
 .boxin.hidden {
   display: none !important;
 }
-
-
