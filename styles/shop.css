@@ -138,36 +138,6 @@
   }
 }
 
-/* Section1 */
-
-.imge {
-  position: relative;
-  width: 100%;
-  height: auto;
-}
-
-.imge img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.adresIn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  text-align: center;
-}
-
-.mainP1 {
-  font-size: 48px;
-}
-.scoundP1 {
-  font-size: 16px;
-}
-
 .barSection1 {
   height: 100px;
   width: 100%;

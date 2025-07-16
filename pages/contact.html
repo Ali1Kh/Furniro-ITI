@@ -1,63 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | Furniro</title>
-  <link rel="stylesheet" href="contact.css"/>
+  <link rel="stylesheet" href="../styles/index.css" />
+  <link rel="stylesheet" href="../styles/contact.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <!-- Header -->
-  <header>
-    <div class="logo">Furniro</div>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Shop</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
-    <div class="icons">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
+  <nav>
+    <!-- Navigation -->
+    <div class="navBar">
+      <div class="text">
+        <p>Furniro</p>
+      </div>
+
+      <div class="menu-icon" onclick="toggleSidebar()">☰</div>
+
+      <div class="navBarLinks">
+        <ul>
+          <li><a href="/pages/home.html">Home</a></li>
+          <li><a href="/pages/shop.html">Shop</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/pages/Compare.html">Compare</a></li>
+          <li><a href="/pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="navBarIcons">
+        <a href="/pages/home.html"><i class="fa-solid fa-user"></i></a>
+        <a href="/pages/shop.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="/"><i class="fa-solid fa-heart"></i></a>
+        <a href="/pages/contact.html"><i class="fa-solid fa-cart-plus"></i></a>
+      </div>
     </div>
-  </header>
+
+    <!-- Sidebar for mobile -->
+    <div class="sidebar" id="sidebar">
+      <a href="" onclick="toggleSidebar()">✖</a>
+      <a href="">Home</a>
+      <a href="/pages/shop.html">Shop</a>
+      <a href="/">About</a>
+      <a href="/pages/Compare.html">Compare</a>
+      <a href="/pages/contact.html">Contact</a>
+    </div>
+  </nav>
   <!-- Hero -->
-  <section class="hero">
-    <h2>Contact</h2>
-    <p>Home > Contact</p>
-  </section>
+  <div id="pageHeader" class="section1">
+    <div class="insection1">
+      <div class="imge">
+        <img src="../assets/img/Rectangle 1.png" alt="">
+        <div class="adresIn">
+          <p class="mainP1">Contact</p>
+          <p class="scoundP1">Home > Contact</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
   <!-- Contact Section -->
   <section class="contact">
     <div class="section-header">
       <h3>Get In Touch With Us</h3>
-      <p>For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
+      <p>For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be
+        There To Help You Out. Do Not Hesitate!</p>
     </div>
     <div class="contact-container">
       <!-- Contact Info -->
       <div class="contact-info">
         <div class="info-block">
-          <span class="icon"></span>
+          <div class="icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
           <div>
             <h4>Address</h4>
             <p>236 5th SE Avenue, New York NY10000, United States</p>
           </div>
         </div>
         <div class="info-block">
-          <span class="icon"></span>
+          <span class="icon">
+            <i class="fa-solid fa-phone"></i>
+          </span>
           <div>
             <h4>Phone</h4>
-            <p>Mobile: +(84) 546-6789<br/>Hotline: +(84) 456-6789</p>
+            <p>Mobile: +(84) 546-6789<br />Hotline: +(84) 456-6789</p>
           </div>
         </div>
         <div class="info-block">
-          <span class="icon"></span>
+          <span class="icon">
+            <i class="fa-solid fa-clock"></i>
+          </span>
           <div>
             <h4>Working Time</h4>
-            <p>Monday–Friday: 9:00 – 22:00<br/>Saturday–Sunday: 9:00 – 21:00</p>
+            <p>Monday–Friday: 9:00 – 22:00<br />Saturday–Sunday: 9:00 – 21:00</p>
           </div>
         </div>
       </div>
@@ -76,7 +117,7 @@
     </div>
   </section>
   <!-- Features Section -->
-  <section class="features">
+  <!-- <section class="features">
     <div>
       <span></span>
       <p><strong>High Quality</strong><br>crafted from top materials</p>
@@ -93,7 +134,84 @@
       <span></span>
       <p><strong>24 / 7 Support</strong><br>Dedicated support</p>
     </div>
-  </section>
+  </section> -->
+
+  <div id="quality">
+    <div class="1"
+      style="display: flex; gap: 1.5rem; padding-top: 80px; padding-bottom: 80px;width: 25%;padding-left: 50px;">
+      <div class="l"><img src="../assets/icons/Group copy.png" alt=""></div>
+      <div class="r">
+        <h2>High Quality</h2>
+        <p>crafted from top materials</p>
+      </div>
+
+    </div>
+    <div class="2" style="display: flex; gap: 1.5rem; padding-top: 80px; padding-bottom: 80px;width: 25%;">
+      <div class="l"><img src="../assets/icons/Group (2).png" alt=""></div>
+      <div class="r">
+        <h2>Warranty Protection</h2>
+        <p>Over 2 years</p>
+      </div>
+
+    </div>
+    <div class="3" style="display: flex; gap: 1.5rem; padding-top: 80px; padding-bottom: 80px;width: 25%;">
+      <div class="l"><img src="../assets/icons/Vector (2).png" alt=""></div>
+      <div class="r">
+        <h2>Free Shipping</h2>
+        <p>Order over 150 $</p>
+      </div>
+
+    </div>
+    <div class="4" style="display: flex; gap: 1.5rem; padding-top: 80px; padding-bottom: 80px;width: 25%;">
+      <div class="l"><img src="../assets/icons/customer-support.png" alt=""></div>
+      <div class="r">
+        <h2>24 / 7 Support</h2>
+        <p>Dedicated support</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-sec">
+        <h2 class="logo">Funiro.</h2>
+        <p style="padding-top: 20px;">400 University Drive Suite 200 Coral Gables,<br>FL 33134 USA</p>
+      </div>
+
+      <div class="footer-sec">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-sec">
+        <h4>Help</h4>
+        <ul>
+          <li><a href="#">Payment Options</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Privacy Policies</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-sec new">
+        <h4>Newsletter</h4>
+        <div class="subscribe">
+          <input type="email" placeholder="Enter Your Email Address">
+          <button>SUBSCRIBE</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>2023 furniro. All rights reserved</p>
+    </div>
+  </footer> -->
   <!-- Footer -->
   <footer>
     <div class="footer-top">
@@ -125,4 +243,5 @@
     </div>
   </footer>
 </body>
+
 </html>

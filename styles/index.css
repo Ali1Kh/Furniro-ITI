@@ -89,6 +89,35 @@ body {
   width: 100%;
 }
 
+/* Page Header */
+ 
+#pageHeader .imge {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+#pageHeader .imge img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#pageHeader .adresIn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: center;
+}
+
+#pageHeader .mainP1 {
+  font-size: 48px;
+}
+#pageHeader .scoundP1 {
+  font-size: 16px;
+}
 
 @media (max-width: 768px) {
   .navBarLinks {
