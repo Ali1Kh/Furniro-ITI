@@ -96,29 +96,23 @@ body {
   gap: 30px;
   flex: 2;
   justify-content: center;
+  align-items: center;
 }
 
 .product-card {
-  background: #f8f9fa;
-  border-radius: 12px;
-  padding: 25px;
+  /* border-radius: 12px; */
+  /* padding: 25px; */
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   min-width: 280px;
 }
 
-.product-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-}
 
 .product-card .product-img {
   width: 180px;
-  height: auto;
+  height: 180px;
   margin-bottom: 15px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .product-card h3 {
