@@ -377,12 +377,12 @@ form select {
   .sidebar {
     display: flex;
   }
-
-   .form, .table {
-    flex: 1 1 48%; 
-  }
 }
 
 
-
+@media (min-width: 768px) {
+  .form, .table {
+    flex: 1 1 48%; 
+  }
+}
 
