@@ -93,7 +93,7 @@
   left: -50px;
 }
 
-#content {
+/* #content {
   display: flex;
   justify-content: space-between;
   gap: 8rem;
@@ -104,7 +104,28 @@
 
 .form {
   width: 50%;
+} */
+
+
+
+
+
+
+
+#content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* مهم جدا */
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 20px;
 }
+
+.form, .table {
+  flex: 1 1 100%; /* هتكون عمودين فوق بعض مبدئياً */
+}
+
 
 .form h1 {
   font-size: 36px;
@@ -285,5 +306,63 @@ form select {
   text-align: left;
   font-size: 13px;
   color: #000;
+}
+
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  flex-wrap: wrap;
+}
+
+.navBar .menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.navBarLinks ul,
+.navBarIcons {
+  display: flex;
+  gap: 15px;
+}
+
+.sidebar {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  width: 250px;
+  height: 100%;
+  padding: 20px;
+  z-index: 999;
+  flex-direction: column;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar a {
+  display: block;
+  padding: 15px;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .navBarLinks,
+  .navBarIcons {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .sidebar {
+    display: flex;
+  }
 }
 
