@@ -81,12 +81,63 @@ body {
   padding: 15px;
 }
 
-/* Quality */
+/* inSection4 */
+
+
+
+.section4 {
+  height: auto;
+  width: 100%;
+  background-color: #faf3ea;
+  padding: 60px;
+
+}
+.smallPS4 {
+  font-size: 20px;
+  color: #a4a2a0;
+  font-weight: 200;
+}
+
+
+.inSection4 {
+  display: grid;
+  grid-template-columns: 1.6fr 1.6fr 1.6fr 1fr;
+  gap: 20px;
+  height: 100%;
+
+}
+
+/* Left Left */
+.mainPS4 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+
+.LL p  , .LM P , .RM P ,.RR P{
+
+  display: inline;
+  
+}
+
+.pra {
+  display: inline;
+}
+
+.LL img , .LM img , .RM img ,.RR img {
+  position: relative;
+  top: 25%;
+  right: 10PX;
+
+}
+
 
 #quality {
-  display: flex;
-  background-color: rgba(250, 243, 234, 1);
+  height: auto;
   width: 100%;
+  background-color: #faf3ea;
+  padding: 60px;
 }
 
 /* Page Header */
@@ -225,10 +276,64 @@ body {
   .navBarIcons {
     display: none;
   }
+
+
+#pageHeader .mainP1 {
+  font-size: 30px;
+}
+.inSection4 img {
+  width: 40px;
+  height: auto;
+}
+.pra {
+  display: inline;
+}
+
+
 }
 
 @media (max-width: 767px) {
   .navBarIcons {
     display: none;
   }
+
+.section4 {
+  width: 100% !important;
+  background-color: #faf3ea !important;
+  padding: 60px 20px !important;
 }
+
+.inSection4 {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 40px !important;
+}
+
+
+.featureBox {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 100% !important;
+}
+
+
+.featureBox img {
+  width: 50px !important;
+  height: auto !important;
+  margin-bottom: 10px !important;
+}
+
+.mainPS4 {
+  font-size: 20px !important;
+  margin-left: 10px !important;
+}
+
+.smallPS4 {
+  font-size: 15px !important;
+    display: block !important;
+}
+
+
+}
+
