@@ -1,11 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-// i
-  const boxContainer = document.querySelector(".boxContainer"); 
-  const pageButtons = document.querySelectorAll('.pageBtn');    
-  const nextBtn = document.querySelector('.pageBtn.next');      
-  const listIcon = document.getElementById("listView");      
-  const gridIcon = document.getElementById("gridView");        
-
+  // i
+  const boxContainer = document.querySelector(".boxContainer");
+  const pageButtons = document.querySelectorAll(".pageBtn");
+  const nextBtn = document.querySelector(".pageBtn.next");
+  const listIcon = document.getElementById("listView");
+  const gridIcon = document.getElementById("gridView");
 
   let currentPage = 1;
   const itemsPerPage = 16;
@@ -17,20 +16,19 @@ document.addEventListener("DOMContentLoaded", function () {
   for (let i = 0; i < totalProducts; i++) {
     const imageNumber = (i % maxImageNumber) + 1;
     products.push({
-      image: `img/section3_${imageNumber}.png`,
+      image: `../assets/img/section3_${imageNumber}.png`,
       fuct: "Respira",
       name: `Minimalist chair ${i + 1}`,
       price: `Rp ${500 + i * 10}.000`,
-      oldPrice: `Rp ${750 + i * 10}.000`
+      oldPrice: `Rp ${750 + i * 10}.000`,
     });
   }
-
 
   function createCard(product) {
     const card = document.createElement("div");
     card.className = "boxin";
     card.innerHTML = `
-      <img src="${product.image}" alt="${product.name}" />
+      <img src="../assets/${product.image}" alt="${product.name}" />
       <p class="fuct">${product.fuct}</p>
       <p class="productName">${product.name}</p>
       <p class="price">${product.price}
@@ -38,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
       </p>
       <button class="addCartBtn">Add to Cart</button>
       <div class="linksUnderBtn">
-        <a href="#">Details</a>
+        <a href="/pages/product.html">Details</a>
         <a href="#">Share</a>
         <a href="#">Wishlist</a>
       </div>
@@ -46,17 +44,17 @@ document.addEventListener("DOMContentLoaded", function () {
     return card;
   }
 
-
   for (let i = 0; i < products.length; i++) {
     const card = createCard(products[i]);
     boxContainer.appendChild(card);
   }
 
-  const allProducts = document.querySelectorAll('.boxin');
+  const allProducts = document.querySelectorAll(".boxin");
 
-  
   function updateProductCount() {
-    const visible = Array.from(allProducts).filter(p => !p.classList.contains("hidden"));
+    const visible = Array.from(allProducts).filter(
+      (p) => !p.classList.contains("hidden")
+    );
     const countElement = document.querySelector(".productCount");
     if (countElement) countElement.textContent = visible.length;
   }
@@ -75,20 +73,21 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
 
-    pageButtons.forEach(btn => btn.classList.remove("active"));
+    pageButtons.forEach((btn) => btn.classList.remove("active"));
     const activeBtn = document.querySelector(`.pageBtn[data-page="${page}"]`);
     if (activeBtn) activeBtn.classList.add("active");
 
     const totalPages = Math.ceil(allProducts.length / itemsPerPage);
     if (nextBtn)
-      nextBtn.style.display = currentPage >= totalPages ? "none" : "inline-block";
+      nextBtn.style.display =
+        currentPage >= totalPages ? "none" : "inline-block";
 
     updateProductCount();
   }
 
   showPage(currentPage);
 
-  pageButtons.forEach(btn => {
+  pageButtons.forEach((btn) => {
     if (!btn.classList.contains("next")) {
       btn.addEventListener("click", () => {
         const page = parseInt(btn.dataset.page);
@@ -97,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-// i
+  // i
   if (nextBtn) {
     nextBtn.addEventListener("click", () => {
       const totalPages = Math.ceil(allProducts.length / itemsPerPage);
@@ -118,10 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
       boxContainer.classList.add("grid-view");
     });
   }
-
-  
 });
-
 
 function toggleSidebar() {
   const sidebar = document.getElementById("sidebar");
