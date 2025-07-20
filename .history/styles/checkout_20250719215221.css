@@ -319,34 +319,6 @@ form select {
    
   }
 }
-@media (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    gap: 30px;
-  }
 
-  .footer-sec {
-    margin: 10px 0;
-  }
-
-  .new .subscribe {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .new input,
-  .new button {
-    width: 50%;
-  }
-
-  .footer {
-    padding: 30px 20px 10px;
-  }
-
-  .footer-bottom {
-    text-align: center;
-    font-size: 12px;
-  }
-}
 
 
