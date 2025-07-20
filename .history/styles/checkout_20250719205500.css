@@ -287,10 +287,4 @@ form select {
   color: #000;
 }
 
-@media (min-width: 768px){
- .navbar{
-  width: auto;
- }
-
-
-}
+@@media (min-width: 768px)

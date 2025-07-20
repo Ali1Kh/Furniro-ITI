@@ -288,9 +288,7 @@ form select {
 }
 
 @media (min-width: 768px){
- .navbar{
-  width: auto;
- }
+  width: ;
 
 
 }
