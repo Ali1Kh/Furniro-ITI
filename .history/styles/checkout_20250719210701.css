@@ -286,9 +286,5 @@ form select {
   font-size: 13px;
   color: #000;
 }
-@media (max-width: 767px){
-  .img-conteaner{
-    width: 100%;
-  }
-}
+@media (max-width: 767px)
 
