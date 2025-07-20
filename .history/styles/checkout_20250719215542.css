@@ -344,7 +344,7 @@ form select {
     justify-content: start;
     padding: 20px 0;
      position: relative;
-    left: 30%;
+    /* left: 30%; */
     
   }
 
