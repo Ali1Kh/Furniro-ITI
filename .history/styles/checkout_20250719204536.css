@@ -418,9 +418,6 @@ form select {
   .footer-sec {
     flex: 1 1 45%;
   }
-  .subscribe {
-    flex-direction: row;
-  }
 }
 
 

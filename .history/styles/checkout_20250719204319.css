@@ -264,16 +264,12 @@ form select {
 
 
 
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 2rem;
-}
+
 
 
 .footer-sec {
-  flex: 1 1 100%;
+  flex: 1 1 200px;
+  margin: 20px 0;
 }
 
 .footer-sec h2.logo {
@@ -345,7 +341,7 @@ form select {
 }
 
 
-/* .navBar {
+.navBar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -385,11 +381,6 @@ form select {
   font-size: 18px;
   color: #333;
   text-decoration: none;
-} */
- .subscribe {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
 @media (max-width: 768px) {
@@ -414,12 +405,6 @@ form select {
     width: auto;
     padding: 15px 100px;
     margin-left: 100px;
-  }
-  .footer-sec {
-    flex: 1 1 45%;
-  }
-  .subscribe {
-    flex-direction: row;
   }
 }
 

@@ -386,11 +386,9 @@ form select {
   color: #333;
   text-decoration: none;
 } */
- .subscribe {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
+ .footer-sec {
+    flex: 1 1 45%;
+  }
 
 @media (max-width: 768px) {
   .navBarLinks,
@@ -417,9 +415,6 @@ form select {
   }
   .footer-sec {
     flex: 1 1 45%;
-  }
-  .subscribe {
-    flex-direction: row;
   }
 }
 
