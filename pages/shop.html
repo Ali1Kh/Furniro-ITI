@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <link rel="stylesheet" href="/styles/shop.css" />
+
+  <link rel="stylesheet" href="/styles/index.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
@@ -17,40 +19,41 @@
   <div class="container">
 
     <!-- ======= Header (Navbar) ======= -->
-    <header>
-      <div class="navBar">
-        <div class="text">
-          <p>Furniro</p>
-        </div>
+  <nav>
+  <!-- Navigation -->
+  <div class="navBar">
+    <div class="text">
+      <p>Furniro</p>
+    </div>
 
-        <div class="menu-icon" onclick="toggleSidebar()">☰</div>
+    <button class="menu-icon" onclick="toggleSidebar()" aria-label="Toggle menu">☰</button>
 
-        <div class="navBarLinks">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
+    <div class="navBarLinks">
+      <ul>
+        <li><a href="/pages/home.html">Home</a></li>
+        <li><a href="/pages/shop.html">Shop</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/pages/contact.html">Contact</a></li>
+      </ul>
+    </div>
 
-        <div class="navBarIcons">
-          <a href="#"><i class="fa-solid fa-user"></i></a>
-          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-          <a href="#"><i class="fa-solid fa-heart"></i></a>
-          <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
-        </div>
-      </div>
+    <div class="navBarIcons">
+      <a href="/pages/Compare.html"><i class="fa-solid fa-user"></i></a>
+      <a href="/pages/shop.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="/"><i class="fa-solid fa-heart"></i></a>
+      <a href="/pages/checkout.html"><i class="fa-solid fa-cart-plus"></i></a>
+    </div>
+  </div>
 
-      <!-- Sidebar -->
-      <div class="sidebar" id="sidebar">
-        <a href="#" onclick="toggleSidebar()">✖</a>
-        <a href="#">Home</a>
-        <a href="#">Shop</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </div>
-    </header>
+  <!-- Sidebar for mobile -->
+  <div class="sidebar" id="sidebar">
+    <a href="javascript:void(0)" onclick="toggleSidebar()">✖</a>
+    <a href="/pages/home.html">Home</a>
+    <a href="/pages/shop.html">Shop</a>
+    <a href="/">About</a>
+    <a href="/pages/contact.html">Contact</a>
+  </div>
+</nav>
 
 
     <div class="mainScrin">
@@ -162,57 +165,41 @@
 
 
 
-    <!-- ======= Footer ======= -->
-    <footer>
-      <div class="the_end with-line">
-        <div class="footer">
-          <div class="footerBox">
-            <div class="infoterbox">
-              <!-- Left -->
-              <div class="infoterboxL">
-                <div class="prgraphF">
-                  <p class="mainFooterBar">Funiro.</p>
-                  <p class="scoundFooterBar">400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
-                </div>
-              </div>
+    <!-- ======= Footer =======
+     
+    
+    
+    -->
 
-              <!-- Middle Left -->
-              <div class="infoterboxLM">
-                <div class="prgraphFF">
-                  <p>Links</p>
-                  <a href="#">Home</a>
-                  <a href="#">Shop</a>
-                  <a href="#">About</a>
-                  <a href="#">Contact</a>
-                </div>
-              </div>
-
-              <!-- Middle Right -->
-              <div class="infoterboxRM">
-                <div class="prgraphFF">
-                  <p>Help</p>
-                  <a href="#">Payment Options</a>
-                  <a href="#">Returns</a>
-                  <a href="#">Privacy Policies</a>
-                </div>
-              </div>
-
-              <!-- Right -->
-              <div class="infoterboxR">
-                <div class="prgraphFF">
-                  <p>Newsletter</p>
-                  <div class="SUBSCRIBE">
-                    <input type="text" placeholder="Enter Your Email Address" />
-                    <button type="button">SUBSCRIBE</button>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
+     <footer>
+    <div class="footer-top">
+      <div class="about">
+        <h3>Furniro.</h3>
+        <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
       </div>
-    </footer>
+      <div class="footer-links">
+        <h4>Links</h4>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-links">
+        <h4>Help</h4>
+        <a href="#">Payment Options</a>
+        <a href="#">Returns</a>
+        <a href="#">Privacy Policies</a>
+      </div>
+      <div class="newsletter">
+        <h4>Newsletter</h4>
+        <input type="email" placeholder="Enter your email address" />
+        <button>SUBSCRIBE</button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Furniro. All rights reserved.</p>
+    </div>
+  </footer>
 
   </div>
 

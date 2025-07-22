@@ -53,8 +53,9 @@ body {
   color: #b88e2f;
 }
 
-
-
+.menu-icon {
+  all: unset; 
+}
 
 
 /* ===== Sidebar (Mobile) ===== */
@@ -65,7 +66,7 @@ body {
   background-color: #8d8d8d;
   overflow-x: hidden;
   transition: 0.3s;
-  padding-top: 60px;
+  /* padding-top: 0px; */
   z-index: 999;
 }
 .sidebar a {
@@ -409,87 +410,12 @@ body {
 
               Footer
 ======================================= */
-.footerBox {
-  height: 400px;
-  width: 100%;
-}
-.with-line::before,
-.with-line::after {
-  content: "";
-  display: block;
-  height: 1px;
-  background-color: #c6c6c6;
-  margin: 20px auto;
-  width: 100%;
-}
-.with-line::after {
-  width: 82%;
-}
-.infoterbox {
-  margin: 0 100px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1.5fr;
-  gap: 20px;
-  padding: 30px;
-  color: white;
-  height: 100%;
-}
-.mainFooterBar {
-  font-weight: bold;
-  font-size: 24px;
-  color: #000;
-}
-.scoundFooterBar {
-  font-size: 16px;
-  font-weight: 300;
-  color: #9F9F9F;
-  top: 40px;
-  position: relative;
-}
-.prgraphF {
-  top: 54px;
-  position: relative;
-}
-.infoterboxLM a,
-.infoterboxRM a {
-  display: block;
-  margin-top: 55px;
-  text-decoration: none;
-  color: #000;
-  width: 70%;
-}
-.infoterboxLM p,
-.infoterboxRM p,
-.prgraphFF p {
-  font-size: 16px;
-  font-weight: 300;
-  color: #9F9F9F;
-}
-.SUBSCRIBE {
-  top: 53px;
-  position: relative;
-}
-.SUBSCRIBE input,
-.SUBSCRIBE button {
-  font-size: 14px;
-  height: 21px;
-  border: none;
-  border-bottom: 1px solid black;
-}
-.SUBSCRIBE input {
-  width: 200px;
-  color: #9F9F9F;
-}
-.SUBSCRIBE input:focus {
-  outline: none;
-}
-.SUBSCRIBE button {
-  font-weight: bold;
-  width: 85px;
-  margin-left: 15px;
-  background-color: white;
-  cursor: pointer;
-}
+
+
+
+
+
+
 
 /* =======================================
   📱 Media Queries

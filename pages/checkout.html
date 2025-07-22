@@ -8,46 +8,48 @@
   <link rel="shortcut icon" href="../assets/icons/Logo.png" type="image/x-icon">
   <link rel="stylesheet" href="../styles/index.css">
   <link rel="stylesheet" href="../styles/checkout.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
 
+   <!-- ======= Header (Navbar) ======= -->
   <nav>
-    <!-- Navigation -->
-    <div class="navBar">
-      <div class="text">
-        <p>Furniro</p>
-      </div>
-
-      <div class="menu-icon" onclick="toggleSidebar()">☰</div>
-
-      <div class="navBarLinks">
-        <ul>
-          <li><a href="/pages/home.html">Home</a></li>
-          <li><a href="/pages/shop.html">Shop</a></li>
-          <li><a href="/">About</a></li>
-          <li><a href="/pages/contact.html">Contact</a></li>
-        </ul>
-      </div>
-
-     <div class="navBarIcons">
-        <a href="/pages/Compare.html"><i class="fa-solid fa-user"></i></a>
-        <a href="/pages/shop.html"><i class="fa-solid fa-magnifying-glass"></i></a>
-        <a href="/"><i class="fa-solid fa-heart"></i></a>
-        <a href="/pages/checkout.html"><i class="fa-solid fa-cart-plus"></i></a>
-      </div>
+  <!-- Navigation -->
+  <div class="navBar">
+    <div class="text">
+      <p>Furniro</p>
     </div>
-       
 
-    <!-- Sidebar for mobile -->
-    <div class="sidebar" id="sidebar">
-      <a href="" onclick="toggleSidebar()">✖</a>
-      <a href="">Home</a>
-      <a href="/pages/shop.html">Shop</a>
-      <a href="/">About</a>
-      <a href="/pages/contact.html">Contact</a>
+    <button class="menu-icon" onclick="toggleSidebar()" aria-label="Toggle menu">☰</button>
+
+    <div class="navBarLinks">
+      <ul>
+        <li><a href="/pages/home.html">Home</a></li>
+        <li><a href="/pages/shop.html">Shop</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/pages/contact.html">Contact</a></li>
+      </ul>
     </div>
-  </nav>
+
+    <div class="navBarIcons">
+      <a href="/pages/Compare.html"><i class="fa-solid fa-user"></i></a>
+      <a href="/pages/shop.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="/"><i class="fa-solid fa-heart"></i></a>
+      <a href="/pages/checkout.html"><i class="fa-solid fa-cart-plus"></i></a>
+    </div>
+  </div>
+
+  <!-- Sidebar for mobile -->
+  <div class="sidebar" id="sidebar">
+    <a href="javascript:void(0)" onclick="toggleSidebar()">✖</a>
+    <a href="/pages/home.html">Home</a>
+    <a href="/pages/shop.html">Shop</a>
+    <a href="/">About</a>
+    <a href="/pages/contact.html">Contact</a>
+  </div>
+</nav>
 
   <main class="checkout">
     <div id="home">
@@ -149,81 +151,62 @@
         </div>
       </div>
     </div>
-
-    <div id="quality">
-      <div class="quality-box">
-        <div class="l"><img src="../assets/icons/Group copy.png" alt=""></div>
-        <div class="r">
-          <h2>High Quality</h2>
-          <p>crafted from top materials</p>
-        </div>
-
-      </div>
-      <div class="quality-box" >
-        <div class="l"><img src="../assets/icons/Group (2).png" alt=""></div>
-        <div class="r">
-          <h2>Warranty Protection</h2>
-          <p>Over 2 years</p>
-        </div>
-
-      </div>
-      <div class="quality-box" >
-        <div class="l"><img src="../assets/icons/Vector (2).png" alt=""></div>
-        <div class="r">
-          <h2>Free Shipping</h2>
-          <p>Order over 150 $</p>
-        </div>
-
-      </div>
-      <div class="quality-box" >
-        <div class="l"><img src="../assets/icons/customer-support.png" alt=""></div>
-        <div class="r">
-          <h2>24 / 7 Support</h2>
-          <p>Dedicated support</p>
-        </div>
-
-      </div>
-
+      <div class="section4">
+  <div class="inSection4">
+    <div class="featureBox">
+      <img src="/assets/icons/Group.png" alt="">
+      <p class="mainPS4">High Quality</p>
+      <span class="smallPS4">crafted from top materials</span>
     </div>
+
+    <div class="featureBox">
+      <img src="/assets/icons/Group (2).png" alt="">
+      <p class="mainPS4">Warranty Protection</p>
+      <span class="smallPS4">Over 2 years</span>
+    </div>
+
+    <div class="featureBox">
+      <img src="/assets/icons/Vector (2).png" alt="">
+      <p class="mainPS4">Free Shipping</p>
+      <span class="smallPS4">Order over 150 $</span>
+    </div>
+
+    <div class="featureBox">
+      <img src="/assets/icons/customer-support.png" alt="">
+      <p class="mainPS4">24 / 7 Support</p>
+      <span class="smallPS4">Dedicated support</span>
+    </div>
+  </div>
+</div>
   </main>
 
-  <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-sec">
-        <h2 class="logo">Funiro.</h2>
-        <p style="padding-top: 20px;">400 University Drive Suite 200 Coral Gables,<br>FL 33134 USA</p>
+          <footer>
+    <div class="footer-top">
+      <div class="about">
+        <h3>Furniro.</h3>
+        <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
       </div>
-
-      <div class="footer-sec">
+      <div class="footer-links">
         <h4>Links</h4>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
       </div>
-
-      <div class="footer-sec">
+      <div class="footer-links">
         <h4>Help</h4>
-        <ul>
-          <li><a href="#">Payment Options</a></li>
-          <li><a href="#">Returns</a></li>
-          <li><a href="#">Privacy Policies</a></li>
-        </ul>
+        <a href="#">Payment Options</a>
+        <a href="#">Returns</a>
+        <a href="#">Privacy Policies</a>
       </div>
-
-      <div class="footer-sec new">
+      <div class="newsletter">
         <h4>Newsletter</h4>
-        <div class="subscribe">
-          <input type="email" placeholder="Enter Your Email Address">
-          <button>SUBSCRIBE</button>
-        </div>
+        <input type="email" placeholder="Enter your email address" />
+        <button>SUBSCRIBE</button>
       </div>
     </div>
-
     <div class="footer-bottom">
-      <p>2023 furniro. All rights reserved</p>
+      <p>© 2025 Furniro. All rights reserved.</p>
     </div>
   </footer>
 
