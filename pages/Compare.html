@@ -14,40 +14,40 @@
 
 <body>
   <nav>
-  <!-- Navigation -->
-  <div class="navBar">
-    <div class="text">
-      <p>Furniro</p>
+    <!-- Navigation -->
+    <div class="navBar">
+      <div class="text">
+        <p>Furniro</p>
+      </div>
+
+      <button class="menu-icon" onclick="toggleSidebar()" aria-label="Toggle menu">☰</button>
+
+      <div class="navBarLinks">
+        <ul>
+          <li><a href="/pages/home.html">Home</a></li>
+          <li><a href="/pages/shop.html">Shop</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="navBarIcons">
+        <a href="/pages/Compare.html"><i class="fa-solid fa-user"></i></a>
+        <a href="/pages/shop.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="/"><i class="fa-solid fa-heart"></i></a>
+        <a href="/pages/checkout.html"><i class="fa-solid fa-cart-plus"></i></a>
+      </div>
     </div>
 
-    <button class="menu-icon" onclick="toggleSidebar()" aria-label="Toggle menu">☰</button>
-
-    <div class="navBarLinks">
-      <ul>
-        <li><a href="/pages/home.html">Home</a></li>
-        <li><a href="/pages/shop.html">Shop</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/pages/contact.html">Contact</a></li>
-      </ul>
+    <!-- Sidebar for mobile -->
+    <div class="sidebar" id="sidebar">
+      <a href="javascript:void(0)" onclick="toggleSidebar()">✖</a>
+      <a href="/pages/home.html">Home</a>
+      <a href="/pages/shop.html">Shop</a>
+      <a href="/">About</a>
+      <a href="/pages/contact.html">Contact</a>
     </div>
-
-    <div class="navBarIcons">
-      <a href="/pages/Compare.html"><i class="fa-solid fa-user"></i></a>
-      <a href="/pages/shop.html"><i class="fa-solid fa-magnifying-glass"></i></a>
-      <a href="/"><i class="fa-solid fa-heart"></i></a>
-      <a href="/pages/checkout.html"><i class="fa-solid fa-cart-plus"></i></a>
-    </div>
-  </div>
-
-  <!-- Sidebar for mobile -->
-  <div class="sidebar" id="sidebar">
-    <a href="javascript:void(0)" onclick="toggleSidebar()">✖</a>
-    <a href="/pages/home.html">Home</a>
-    <a href="/pages/shop.html">Shop</a>
-    <a href="/">About</a>
-    <a href="/pages/contact.html">Contact</a>
-  </div>
-</nav>
+  </nav>
   <!-- Hero -->
   <div id="pageHeader" class="section1">
     <div class="insection1">
@@ -240,37 +240,35 @@
     </table>
 
   </div>
-      <div class="section4">
-  <div class="inSection4">
-    <div class="featureBox">
-      <img src="/assets/icons/Group.png" alt="">
-      <p class="mainPS4">High Quality</p>
-      <span class="smallPS4">crafted from top materials</span>
-    </div>
+  <div class="section4">
+    <div class="inSection4">
+      <div class="featureBox">
+        <img src="/assets/icons/Group.png" alt="">
+        <p class="mainPS4">High Quality</p>
+        <span class="smallPS4">crafted from top materials</span>
+      </div>
 
-    <div class="featureBox">
-      <img src="/assets/icons/Group (2).png" alt="">
-      <p class="mainPS4">Warranty Protection</p>
-      <span class="smallPS4">Over 2 years</span>
-    </div>
+      <div class="featureBox">
+        <img src="/assets/icons/Group (2).png" alt="">
+        <p class="mainPS4">Warranty Protection</p>
+        <span class="smallPS4">Over 2 years</span>
+      </div>
 
-    <div class="featureBox">
-      <img src="/assets/icons/Vector (2).png" alt="">
-      <p class="mainPS4">Free Shipping</p>
-      <span class="smallPS4">Order over 150 $</span>
-    </div>
+      <div class="featureBox">
+        <img src="/assets/icons/Vector (2).png" alt="">
+        <p class="mainPS4">Free Shipping</p>
+        <span class="smallPS4">Order over 150 $</span>
+      </div>
 
-    <div class="featureBox">
-      <img src="/assets/icons/customer-support.png" alt="">
-      <p class="mainPS4">24 / 7 Support</p>
-      <span class="smallPS4">Dedicated support</span>
+      <div class="featureBox">
+        <img src="/assets/icons/customer-support.png" alt="">
+        <p class="mainPS4">24 / 7 Support</p>
+        <span class="smallPS4">Dedicated support</span>
+      </div>
     </div>
   </div>
-</div>
 
-    <!-- ======= Footer ======= -->
-    <div class="the_end with-line">
-        <footer>
+  <footer>
     <div class="footer-top">
       <div class="about">
         <h3>Furniro.</h3>
@@ -299,9 +297,8 @@
       <p>© 2025 Furniro. All rights reserved.</p>
     </div>
   </footer>
-    </div>
-    <script src="../scripts/index.js"></script>
-    <script src="../scripts/Compare.js"></script>
+  <script src="../scripts/index.js"></script>
+  <script src="../scripts/Compare.js"></script>
 </body>
 
 </html>
