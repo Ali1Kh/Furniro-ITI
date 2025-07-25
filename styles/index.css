@@ -12,9 +12,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* =======================================
-  📌 Navbar
-======================================= */
 .navBar {
   display: flex;
   justify-content: space-between;
@@ -307,6 +304,68 @@ body {
 .smallPS4 {
   font-size: 14px;
   color: #666;
+}
+
+/* Gallery */
+
+.gallery {
+  padding: 40px;
+  overflow: hidden;
+}
+.gallery .title {
+  text-align: center;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #333;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.gallery .title h1 {
+  font-size: 40px;
+  color: #3a3a3a;
+}
+
+.gallery .title h4 {
+  font-size: 20px;
+  color: #616161;
+}
+
+.galleryImages {
+  display: flex;
+  justify-content: center;
+}
+
+.flexsContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.flexRow {
+  display: flex;
+  align-items: end;
+  gap: 20px;
+  max-width: 740px;
+  overflow: hidden;
+}
+
+.flexRow.alignTop {
+  align-items: start;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.galleryImages img {
+  max-width: 400px;
+  /* max-height: 320px; */
+  height: auto;
 }
 
 /* =======================================
