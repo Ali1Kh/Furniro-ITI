@@ -12,7 +12,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
 /* =======================================
   📌 Navbar
 ======================================= */
@@ -22,22 +21,24 @@ body {
   align-items: center;
   padding: 10px 40px;
   height: 70px;
-
 }
 
+.navBar a {
+  color: black;
+}
 
 .menu-icon {
-  all: unset; 
+  all: unset;
 }
 
 .navBar img {
   display: inline;
 }
 .navBarLinks {
-    /* background-color: aquamarine; */
-    display: flex;
-    justify-content: center; 
-    align-items: center;      
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navBarLinks ul {
@@ -60,10 +61,6 @@ body {
   font-size: 22px;
   color: #b88e2f;
 }
-
-
-
-
 
 /* ===== Sidebar (Mobile) ===== */
 .sidebar {
@@ -93,17 +90,13 @@ body {
   padding: 15px;
 }
 
-
 /* inSection4 */
-
-
 
 .section4 {
   height: auto;
   width: 100%;
   background-color: #faf3ea;
   padding: 60px;
-
 }
 .smallPS4 {
   font-size: 20px;
@@ -111,13 +104,11 @@ body {
   font-weight: 200;
 }
 
-
 .inSection4 {
   display: grid;
   grid-template-columns: 1.6fr 1.6fr 1.6fr 1fr;
   gap: 20px;
   height: 100%;
-
 }
 
 /* Left Left */
@@ -126,25 +117,25 @@ body {
   font-weight: bold;
 }
 
-
-
-.LL p  , .LM P , .RM P ,.RR P{
-
+.LL p,
+.LM P,
+.RM P,
+.RR P {
   display: inline;
-  
 }
 
 .pra {
   display: inline;
 }
 
-.LL img , .LM img , .RM img ,.RR img {
+.LL img,
+.LM img,
+.RM img,
+.RR img {
   position: relative;
   top: 25%;
-  right: 10PX;
-
+  right: 10px;
 }
-
 
 #quality {
   height: auto;
@@ -318,7 +309,6 @@ body {
   color: #666;
 }
 
-
 /* =======================================
 
               Footer
@@ -387,19 +377,16 @@ footer {
     display: none;
   }
 
-
-#pageHeader .mainP1 {
-  font-size: 30px;
-}
-.inSection4 img {
-  width: 40px;
-  height: auto;
-}
-.pra {
-  display: inline;
-}
-
-
+  #pageHeader .mainP1 {
+    font-size: 30px;
+  }
+  .inSection4 img {
+    width: 40px;
+    height: auto;
+  }
+  .pra {
+    display: inline;
+  }
 }
 
 @media (max-width: 767px) {
@@ -407,46 +394,38 @@ footer {
     display: none;
   }
 
-.section4 {
-  width: 100% !important;
-  background-color: #faf3ea !important;
-  padding: 60px 20px !important;
-}
+  .section4 {
+    width: 100% !important;
+    background-color: #faf3ea !important;
+    padding: 60px 20px !important;
+  }
 
-.inSection4 {
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 40px !important;
-}
+  .inSection4 {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 40px !important;
+  }
 
+  .featureBox {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
 
-.featureBox {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  width: 100% !important;
-}
+  .featureBox img {
+    width: 50px !important;
+    height: auto !important;
+    margin-bottom: 10px !important;
+  }
 
+  .mainPS4 {
+    font-size: 20px !important;
+    margin-left: 10px !important;
+  }
 
-.featureBox img {
-  width: 50px !important;
-  height: auto !important;
-  margin-bottom: 10px !important;
-}
-
-.mainPS4 {
-  font-size: 20px !important;
-  margin-left: 10px !important;
-}
-
-.smallPS4 {
-  font-size: 15px !important;
+  .smallPS4 {
+    font-size: 15px !important;
     display: block !important;
+  }
 }
-
-
-}
-
-
-
-

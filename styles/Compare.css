@@ -15,14 +15,8 @@
 
 .view-more-link {
   color: #333;
-  text-decoration: underline;
   font-weight: 500;
   font-size: 18px;
-  transition: color 0.3s ease;
-}
-
-.view-more-link:hover {
-  color: #b88e2f;
 }
 
 .products-section {
@@ -46,14 +40,14 @@
 }
 
 .product-card h3 {
-  font-size: 1.3em;
+  font-size: 22px;
   font-weight: 600;
   color: #333;
   margin-bottom: 10px;
 }
 
 .product-card .price {
-  font-size: 1.4em;
+  font-size: 22px;
   font-weight: 600;
   color: #b88e2f;
   margin-bottom: 10px;
@@ -68,7 +62,7 @@
 
 .product-card .stars {
   color: #ffd700;
-  font-size: 1.1em;
+  font-size: 17px;
 }
 
 .product-card .rating-text {
@@ -78,7 +72,7 @@
 
 .product-card .reviews {
   color: #666;
-  font-size: 0.9em;
+  font-size: 14px;
 }
 
 .right-section {
@@ -87,7 +81,7 @@
 }
 
 .right-section h2 {
-  font-size: 1.5em;
+  font-size: 24px;
   font-weight: 600;
   color: #333;
   margin-bottom: 15px;
@@ -99,7 +93,7 @@
   border: none;
   padding: 15px 25px;
   border-radius: 8px;
-  font-size: 1.1em;
+  font-size: 17px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -116,7 +110,7 @@
 }
 
 .choose-product-btn i {
-  font-size: 0.9em;
+  font-size: 14px;
 }
 
 .comparison-table-container {
@@ -142,7 +136,7 @@
 }
 
 .comparison-table th {
-  font-size: 1.1em;
+  font-size: 17px;
   font-weight: 600;
   vertical-align: top;
 }
@@ -162,11 +156,11 @@
 .comparison-table h3 {
   margin: 8px 0;
   color: #333;
-  font-size: 1.3em;
+  font-size: 20.8px;
 }
 
 .comparison-table .price {
-  font-size: 1.4em;
+  font-size: 22px;
   font-weight: 600;
   color: #b88e2f;
   margin: 8px 0;
@@ -182,7 +176,7 @@
 
 .comparison-table .stars {
   color: #ffd700;
-  font-size: 1.1em;
+  font-size: 17px;
 }
 
 .comparison-table .rating-text {
@@ -192,12 +186,12 @@
 
 .comparison-table .reviews {
   color: #666;
-  font-size: 0.9em;
+  font-size: 14px;
 }
 
 .section-header {
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 17px;
 }
 
 .section-header td {
@@ -224,7 +218,7 @@
   border: none;
   padding: 15px 40px;
   border-radius: 2px;
-  font-size: 1.1em;
+  font-size: 17px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -265,13 +259,13 @@
   }
 
   .header-content h1 {
-    font-size: 2em;
+    font-size: 32px;
   }
 
   .comparison-table th,
   .comparison-table td {
     padding: 10px 6px;
-    font-size: 0.9em;
+    font-size: 14px;
   }
 
   .comparison-table .product-img {
@@ -280,7 +274,7 @@
 
   .comparison-table {
     width: 100%;
-    font-size: 0.85em;
+    font-size: 13px;
   }
 
   .action-buttons {
