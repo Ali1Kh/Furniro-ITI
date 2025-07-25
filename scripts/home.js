@@ -29,7 +29,7 @@ function moveSlide(direction) {
   currentIndex += direction;
 
   if (currentIndex < 0) currentIndex = 0;
-  if (currentIndex > maxIndex) currentIndex = maxIndex;
+  if (currentIndex > maxIndex) currentIndex = -maxIndex;
 
   slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
 }
