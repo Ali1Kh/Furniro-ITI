@@ -297,6 +297,9 @@ body {
   opacity: 1;
   visibility: visible;
 }
+.boxin.hidden  {
+  display: none;
+}
 
 
 /* ------------------- Pagination Section --------------------- */
@@ -395,6 +398,7 @@ body {
   display: none;
 
 }
+
 
 
 .boxContainer.list-view .addCartBtn,
