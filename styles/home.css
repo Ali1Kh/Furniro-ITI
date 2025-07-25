@@ -6,7 +6,7 @@
   background-image: url("../assets/img/background 1.png");
   background-size: cover;
   background-position: center;
-  padding: 0 5%;
+  padding-right: 5%;
 }
 
 .box {
@@ -42,7 +42,7 @@
 }
 
 .section2 {
-  max-width: 1800px;
+  max-width: 1200px;
   padding: 100px 30px;
   margin: auto;
   text-align: center;
@@ -60,7 +60,6 @@
 .imges {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  justify-items: center;
   margin-top: 80px;
 }
 
@@ -91,23 +90,20 @@
 
 .boxContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, fr));
   gap: 40px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .boxin {
-  /* width: calc((100% - 3 * 40px) / 4); */
   height: 450px;
   background-color: #f4f5f7;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   cursor: pointer;
   transition: transform 0.3s ease;
   gap: 10px;
-  position: relative;
   overflow: hidden;
 }
 
@@ -155,9 +151,6 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(210, 26, 26, 0);
-  backdrop-filter: none;
-  transition: background 0.3s ease, backdrop-filter 0.3s ease;
   z-index: 2;
   pointer-events: none;
 }
@@ -240,7 +233,6 @@
   transition: ease-in-out 0.5s;
 }
 
-/* chat */
 .bigP {
   width: 22ch;
   white-space: nowrap;
@@ -338,10 +330,6 @@
   top: 150px;
 }
 
-.photos {
-  display: grid;
-  grid-template-rows: 10%;
-}
 
 .explore-btn {
   background-color: #b88e2f;
@@ -366,7 +354,7 @@
 
 .slider-track {
   display: flex;
-  transition: transform 0.5s ease;
+  transition: transform 0.6s ease;
 }
 
 .slider-track img {
@@ -401,14 +389,6 @@
   right: 10px;
 }
 
-.pragraph4 {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  position: relative;
-  top: 10px;
-  color: #b88e2f;
-}
 
 .buttonExplore button {
   width: 176px;
