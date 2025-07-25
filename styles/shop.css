@@ -173,7 +173,7 @@ body {
 ------------------------  Section 3 - Product List/Grid-------------------------
  */
 .section3 {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 44px auto 50px auto;
   padding: 20px;
   text-align: center;
@@ -182,23 +182,20 @@ body {
   font-size: 32px;
   margin-bottom: 40px;
 }
-
 .boxContainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 40px;
-  padding: 10px;
+  gap: 20px;
 }
 
-.boxContainer .hidden {
-  display: none;
-}
+
 .boxin {
   height: 450px;
   background-color: #f4f5f7;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   cursor: pointer;
   transition: transform 0.3s ease;
   gap: 10px;
@@ -210,6 +207,8 @@ body {
   height: 300px;
   object-fit: cover;
   transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
 }
 .boxin:hover img {
   transform: scale(1.05);
@@ -232,24 +231,32 @@ body {
   font-size: 20px;
   font-weight: bold;
   color: #000;
+
 }
+
 .boxin:hover {
   transform: translateY(-10px);
 }
+
 .boxin::before {
   content: "";
   position: absolute;
   inset: 0;
   background: rgba(210, 26, 26, 0);
   z-index: 2;
+  opacity: 0;
+  backdrop-filter: blur(4px);
 }
+
 .boxin:hover::before {
-  background: rgba(183, 181, 181, 0.35);
+  opacity: 1;
+  background: rgba(147, 147, 147, 0.35);
 }
 .addCartBtn {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 150px;
   transform: translate(-50%, -50%);
   background-color: #b88e2f;
   color: white;
