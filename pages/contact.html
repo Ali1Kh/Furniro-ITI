@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | Furniro</title>
-    <link rel="shortcut icon" href="../assets/icons/Logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../assets/icons/Logo.png" type="image/x-icon">
   <link rel="stylesheet" href="../styles/index.css" />
   <link rel="stylesheet" href="../styles/contact.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,41 +15,41 @@
 
 <body>
   <!-- Header -->
- <nav>
-  <!-- Navigation -->
-  <div class="navBar">
-    <div class="text">
-      <p>Furniro</p>
+  <nav>
+    <!-- Navigation -->
+    <div class="navBar">
+      <div class="text">
+        <p>Furniro</p>
+      </div>
+
+      <button class="menu-icon" onclick="toggleSidebar()" aria-label="Toggle menu">☰</button>
+
+      <div class="navBarLinks">
+        <ul>
+          <li><a href="/pages/home.html">Home</a></li>
+          <li><a href="/pages/shop.html">Shop</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="navBarIcons">
+        <a href="/pages/Compare.html"><i class="fa-solid fa-user"></i></a>
+        <a href="/pages/shop.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="/"><i class="fa-solid fa-heart"></i></a>
+        <a href="/pages/checkout.html"><i class="fa-solid fa-cart-plus"></i></a>
+      </div>
     </div>
 
-    <button class="menu-icon" onclick="toggleSidebar()" aria-label="Toggle menu">☰</button>
-
-    <div class="navBarLinks">
-      <ul>
-        <li><a href="/pages/home.html">Home</a></li>
-        <li><a href="/pages/shop.html">Shop</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/pages/contact.html">Contact</a></li>
-      </ul>
+    <!-- Sidebar for mobile -->
+    <div class="sidebar" id="sidebar">
+      <a href="javascript:void(0)" onclick="toggleSidebar()">✖</a>
+      <a href="/pages/home.html">Home</a>
+      <a href="/pages/shop.html">Shop</a>
+      <a href="/">About</a>
+      <a href="/pages/contact.html">Contact</a>
     </div>
-
-    <div class="navBarIcons">
-      <a href="/pages/Compare.html"><i class="fa-solid fa-user"></i></a>
-      <a href="/pages/shop.html"><i class="fa-solid fa-magnifying-glass"></i></a>
-      <a href="/"><i class="fa-solid fa-heart"></i></a>
-      <a href="/pages/checkout.html"><i class="fa-solid fa-cart-plus"></i></a>
-    </div>
-  </div>
-
-  <!-- Sidebar for mobile -->
-  <div class="sidebar" id="sidebar">
-    <a href="javascript:void(0)" onclick="toggleSidebar()">✖</a>
-    <a href="/pages/home.html">Home</a>
-    <a href="/pages/shop.html">Shop</a>
-    <a href="/">About</a>
-    <a href="/pages/contact.html">Contact</a>
-  </div>
-</nav>
+  </nav>
 
   <!-- Hero -->
   <div id="pageHeader" class="section1">
@@ -137,33 +137,33 @@
     </div>
   </section> -->
 
-        <div class="section4">
-  <div class="inSection4">
-    <div class="featureBox">
-      <img src="/assets/icons/Group.png" alt="">
-      <p class="mainPS4">High Quality</p>
-      <span class="smallPS4">crafted from top materials</span>
-    </div>
+  <div class="section4">
+    <div class="inSection4">
+      <div class="featureBox">
+        <img src="/assets/icons/Group.png" alt="">
+        <p class="mainPS4">High Quality</p>
+        <span class="smallPS4">crafted from top materials</span>
+      </div>
 
-    <div class="featureBox">
-      <img src="/assets/icons/Group (2).png" alt="">
-      <p class="mainPS4">Warranty Protection</p>
-      <span class="smallPS4">Over 2 years</span>
-    </div>
+      <div class="featureBox">
+        <img src="/assets/icons/Group (2).png" alt="">
+        <p class="mainPS4">Warranty Protection</p>
+        <span class="smallPS4">Over 2 years</span>
+      </div>
 
-    <div class="featureBox">
-      <img src="/assets/icons/Vector (2).png" alt="">
-      <p class="mainPS4">Free Shipping</p>
-      <span class="smallPS4">Order over 150 $</span>
-    </div>
+      <div class="featureBox">
+        <img src="/assets/icons/Vector (2).png" alt="">
+        <p class="mainPS4">Free Shipping</p>
+        <span class="smallPS4">Order over 150 $</span>
+      </div>
 
-    <div class="featureBox">
-      <img src="/assets/icons/customer-support.png" alt="">
-      <p class="mainPS4">24 / 7 Support</p>
-      <span class="smallPS4">Dedicated support</span>
+      <div class="featureBox">
+        <img src="/assets/icons/customer-support.png" alt="">
+        <p class="mainPS4">24 / 7 Support</p>
+        <span class="smallPS4">Dedicated support</span>
+      </div>
     </div>
   </div>
-</div>
 
   <!-- <footer class="footer">
     <div class="footer-container">
@@ -175,10 +175,10 @@
       <div class="footer-sec">
         <h4>Links</h4>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="/pages/home.html">Home</a></li>
+          <li><a href="/pages/shop.html">Shop</a></li>
+          <li><a>About</a></li>
+          <li><a href="/pages/contact.html">Contact</a></li>
         </ul>
       </div>
 
@@ -213,10 +213,10 @@
       </div>
       <div class="footer-links">
         <h4>Links</h4>
-        <a href="#">Home</a>
-        <a href="#">Shop</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="/pages/home.html">Home</a>
+        <a href="/pages/shop.html">Shop</a>
+        <a>About</a>
+        <a href="/pages/contact.html">Contact</a>
       </div>
       <div class="footer-links">
         <h4>Help</h4>
