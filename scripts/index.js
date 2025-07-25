@@ -1,17 +1,12 @@
-// function toggleSidebar() {
-//   const sidebar = document.getElementById("sidebar");
-//   if (sidebar.style.width === "250px") {
-//     sidebar.style.width = "0";
-//   } else {
-//     sidebar.style.width = "250px";
-//   }
-// }
-
 function toggleSidebar() {
   const sidebar = document.getElementById("sidebar");
-  if (sidebar.style.display === "flex") {
-    sidebar.style.display = "none";
+  const overlay = document.getElementById("sidebarOverlay");
+
+  if (sidebar.style.width === "250px") {
+    sidebar.style.width = "0";
+    overlay.style.display = "none";
   } else {
-    sidebar.style.display = "flex";
+    sidebar.style.width = "250px";
+    overlay.style.display = "block";
   }
 }
