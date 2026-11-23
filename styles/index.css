@@ -12,30 +12,21 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.navBar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 40px;
-  height: 70px;
-}
-
-.navBar a {
-  color: black;
-}
-
-.menu-icon {
-  all: unset;
-}
-
 .navBar img {
   display: inline;
 }
-.navBarLinks {
-  /* background-color: aquamarine; */
+
+.navBar {
+  width: 100%;
+  height: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 50px;
+  background-color: #fff;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
 }
 
 .navBarLinks ul {
@@ -43,23 +34,25 @@ body {
   display: flex;
   gap: 60px;
 }
+
 .navBarLinks a {
   text-decoration: none;
   font-size: 18px;
   color: black;
 }
+
 .navBarIcons {
   display: flex;
   gap: 30px;
-  /* background-color: #b88e2f; */
 }
+
 .text p {
   font-weight: bold;
   font-size: 22px;
   color: #b88e2f;
 }
 
-/* ===== Sidebar (Mobile) ===== */
+/* Sidebar for mobile */
 .sidebar {
   height: 100%;
   width: 0;
@@ -80,6 +73,7 @@ body {
 .sidebar a:hover {
   background-color: #444;
 }
+
 .menu-icon {
   font-size: 28px;
   cursor: pointer;
@@ -87,58 +81,12 @@ body {
   padding: 15px;
 }
 
-/* inSection4 */
-
-.section4 {
-  height: auto;
-  width: 100%;
-  background-color: #faf3ea;
-  padding: 60px;
-}
-.smallPS4 {
-  font-size: 20px;
-  color: #a4a2a0;
-  font-weight: 200;
-}
-
-.inSection4 {
-  display: grid;
-  grid-template-columns: 1.6fr 1.6fr 1.6fr 1fr;
-  gap: 20px;
-  height: 100%;
-}
-
-/* Left Left */
-.mainPS4 {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.LL p,
-.LM P,
-.RM P,
-.RR P {
-  display: inline;
-}
-
-.pra {
-  display: inline;
-}
-
-.LL img,
-.LM img,
-.RM img,
-.RR img {
-  position: relative;
-  top: 25%;
-  right: 10px;
-}
+/* Quality */
 
 #quality {
-  height: auto;
+  display: flex;
+  background-color: rgba(250, 243, 234, 1);
   width: 100%;
-  background-color: #faf3ea;
-  padding: 60px;
 }
 
 /* Page Header */
@@ -267,164 +215,6 @@ body {
   outline: none;
 }
 
-/* =======================================
-    Section 4 
-======================================= */
-.section4 {
-  background-color: #faf3ea;
-  padding: 50px 0;
-}
-
-.inSection4 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.featureBox {
-  text-align: center;
-  padding: 20px;
-}
-
-.featureBox img {
-  width: 40px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.mainPS4 {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.smallPS4 {
-  font-size: 14px;
-  color: #666;
-}
-
-/* Gallery */
-
-.gallery {
-  padding: 40px;
-  overflow: hidden;
-}
-.gallery .title {
-  text-align: center;
-  padding: 50px 0px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  color: #333;
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.gallery .title h1 {
-  font-size: 40px;
-  color: #3a3a3a;
-}
-
-.gallery .title h4 {
-  font-size: 20px;
-  color: #616161;
-}
-
-.galleryImages {
-  display: flex;
-  justify-content: center;
-}
-
-.flexsContainer {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.flexRow {
-  display: flex;
-  align-items: end;
-  gap: 20px;
-  max-width: 740px;
-  overflow: hidden;
-}
-
-.flexRow.alignTop {
-  align-items: start;
-}
-
-.flexCol {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.galleryImages img {
-  max-width: 400px;
-  /* max-height: 320px; */
-  height: auto;
-}
-
-/* =======================================
-
-              Footer
-======================================= */
-footer {
-  background: #eee;
-  color: #444;
-  padding-top: 40px;
-}
-
-.footer-top {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 0 60px 40px;
-}
-
-.footer-top h4,
-.footer-top h3 {
-  margin-bottom: 10px;
-}
-
-.footer-links a {
-  display: block;
-  margin-bottom: 8px;
-  color: #444;
-  text-decoration: none;
-}
-
-.newsletter input {
-  padding: 8px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  width: 200px;
-}
-
-.newsletter button {
-  padding: 8px 12px;
-  border: none;
-  background: #bb952c;
-  color: white;
-  cursor: pointer;
-  border-radius: 4px;
-}
-
-.footer-bottom {
-  background: #ddd;
-  text-align: center;
-  padding: 15px;
-  font-size: 14px;
-}
-/* =======================================
-
-          the end Footer
-======================================= */
-
 @media (max-width: 768px) {
   .navBarLinks {
     display: none;
@@ -435,56 +225,10 @@ footer {
   .navBarIcons {
     display: none;
   }
-
-  #pageHeader .mainP1 {
-    font-size: 30px;
-  }
-  .inSection4 img {
-    width: 40px;
-    height: auto;
-  }
-  .pra {
-    display: inline;
-  }
 }
 
 @media (max-width: 767px) {
   .navBarIcons {
     display: none;
-  }
-
-  .section4 {
-    width: 100% !important;
-    background-color: #faf3ea !important;
-    padding: 60px 20px !important;
-  }
-
-  .inSection4 {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 40px !important;
-  }
-
-  .featureBox {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    width: 100% !important;
-  }
-
-  .featureBox img {
-    width: 50px !important;
-    height: auto !important;
-    margin-bottom: 10px !important;
-  }
-
-  .mainPS4 {
-    font-size: 20px !important;
-    margin-left: 10px !important;
-  }
-
-  .smallPS4 {
-    font-size: 15px !important;
-    display: block !important;
   }
 }
