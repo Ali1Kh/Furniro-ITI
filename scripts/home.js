@@ -17,6 +17,8 @@ showMoreBtn.addEventListener("click", function () {
   }
 });
 
+
+
 let currentIndex = 0;
 
 function moveSlide(direction) {
@@ -27,20 +29,7 @@ function moveSlide(direction) {
   currentIndex += direction;
 
   if (currentIndex < 0) currentIndex = 0;
-  if (currentIndex > maxIndex) currentIndex = -maxIndex;
+  if (currentIndex > maxIndex) currentIndex = maxIndex;
 
   slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-}
-
-function toggleSidebar() {
-  const sidebar = document.getElementById("sidebar");
-  const overlay = document.getElementById("sidebarOverlay");
-
-  if (sidebar.style.width === "250px") {
-    sidebar.style.width = "0";
-    overlay.style.display = "none";
-  } else {
-    sidebar.style.width = "250px";
-    overlay.style.display = "block";
-  }
 }
